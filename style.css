@@ -395,7 +395,25 @@ img { max-width: 100%; display: block; height: auto; }
 
 .author-description { display: block; margin-bottom: 0px; margin-top: 0; }
 .author-description p { font-weight: 500; font-size: 1.125rem; }
-.author-description p:before { content: '\f10d'; font-family: FontAwesome; font-size: 1.500rem; line-height: 0.1em; margin-right: 0.50em;    vertical-align: -0.1em; position: relative; top: 0px; }
+.author-description p:before,
+.author-description p:after {
+	content: "\201C";
+	color: #d0021b;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 2.25rem;
+	font-weight: 700;
+	line-height: 0;
+	position: relative;
+}
+.author-description p:before {
+	margin-right: 0.35em;
+	top: 0.18em;
+}
+.author-description p:after {
+	content: "\201D";
+	margin-left: 0.25em;
+	top: 0.22em;
+}
 .testmonial-area h4 { color: #ffffff; font-weight: 600; font-size: 1.000rem; margin-bottom: 5px; letter-spacing: 1px; display: block; margin-top: 0; }
 .testmonial-area span { padding: 0 0 0 4px; }
 .testmonial-area .media-body { margin: 13px 0 0; }
@@ -662,8 +680,8 @@ a:hover, a:focus { text-decoration: none !important; }
 }
 .home-news .more-link::after,
 .blog-section .more-link::after {
-    content: "\f178";
-    font-family: FontAwesome;
+    content: "\2192";
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0 0 0 7px;
     padding: 0;
     float: right;
@@ -938,8 +956,8 @@ color: #9f9f9f;
     position: absolute;
     top: 0;
     left: 0;
-    content: '\f00c';
-    font-family: 'FontAwesome';
+    content: '\2713';
+    font-family: Arial, Helvetica, sans-serif;
 }
 .widget_archive a, .widget_categories a, .widget_links a, .widget_meta a, .widget_nav_menu a, .widget_pages a,
 .widget_recent_comments a, .widget_recent_entries a {
@@ -949,7 +967,7 @@ color: #9f9f9f;
 }
 .widget_recent_comments a::before {
 	content: "";
-	font-family: FontAwesome;
+	font-family: Arial, Helvetica, sans-serif;
 	display: none;
 	margin-right: 10px;
 	margin-left: 1px;
@@ -1094,7 +1112,7 @@ input[type="radio"], input[type="checkbox"] { margin: 0.625rem 0.5rem 0 0; }
 /*	15.0 HEADER SIDEBAR & FOOTER SIDEBAR SECTION
 /*===================================================================================*/
 
-.site-footer { background-color: #21202e; margin: 0; padding: 80px 0 0; width: 100%; }
+.site-footer { background-color: rgba(36, 30, 34, 0.92); margin: 0; padding: 80px 0 0; width: 100%; }
 .footer-sidebar { padding: 0; }
 .header-sidebar .widget, .footer-sidebar .widget { background-color: transparent; border: 0 none; margin: 0 0 40px; overflow: hidden; padding: 0; }
 .header-sidebar .section-header, .footer-sidebar .section-header { border-bottom: 1px solid #363544; width: 100%; padding: 0 0 15px; margin: 0 0 40px; display: block; text-align: left; }
@@ -1566,7 +1584,17 @@ legend {
     line-height: 1.9;
 }
 .hc_scrollup:hover { opacity: 1; }
-.hc_scrollup i { color: #ffffff; font-size: 14px; }
+.hc_scrollup i { display: none; }
+.hc_scrollup:before {
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-left: 3px solid #ffffff;
+    border-top: 3px solid #ffffff;
+    transform: rotate(45deg);
+    margin-top: 14px;
+}
 
 /*===================================================================================*/
 /*  22.0 WOOCOMMERCE CSS
@@ -2378,8 +2406,8 @@ body .post .entry-content .more-link, .woocommerce-page a{text-decoration: none!
     position: absolute;
     left: 0;
     top: 5px;
-    content: '\f00c';
-    font-family: 'FontAwesome';
+    content: '\2713';
+    font-family: Arial, Helvetica, sans-serif;
 }
 .woocommerce.woocommerce-page .footer-sidebar .widget_categories a{
     padding: 0px 0px 12px 25px;
@@ -2421,8 +2449,8 @@ body .post .entry-content .more-link, .woocommerce-page a{text-decoration: none!
 .widget .wp-block-search button[type="submit"] {font-weight:700}
 .widget li:before {
     position: absolute;
-    content: '\f00c';
-    font-family: 'FontAwesome';
+    content: '\2713';
+    font-family: Arial, Helvetica, sans-serif;
     left:0;
 }
 .widget li{
