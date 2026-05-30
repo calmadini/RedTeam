@@ -1,1598 +1,960 @@
-
 <!DOCTYPE html>
+
 <html lang="de">
-<head>	
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-	
-	<title>RED-Team &#8211; Erste Hilfe Kurs Hamburg &#8211; Rettung einfach durchgeführt</title>
-<style type="text/css">
-/* Banner */
-.page-title-section .page-title h1 {
-	color: #fff;
-}
-/* Breadcrumb */
-    /* Content */
-    .product h1,.about-section h1,.entry-content h1, body .section-header h1.widget-title,.cont-section h1,.slider-content h1 {
-        color: #061018 !important;
-    }
-    .section-header .section-header h2, body h2{
-        color: #061018!important;
-    }
-    .entry-header h3.entry-title a,.entry-content h3,.products > h3 a,.about-section h3,.cont-section h3, .cont-section .sidebar .section-header .widget-title,.slider-content h3,.single-spicepress_portfolio h3,.comment-title h3 {
-        color: #061018!important;
-    }
-    .entry-header h4.entry-title, .entry-header h4.entry-title a,.team-caption h4,.about-section h4,.cont-section h4,.slider-content h4,.entry-content h4,.error_404 h4 {
-        color: #061018!important;
-    }
-    .product-price h5 > a,.blog-author h5, body .comment-detail h5,.about-section h5,.cont-section h5,.slider-content h5,.entry-content h5 {
-        color: #061018;
-    }
-    .section-header h6,.team-caption h6,.about-section h6,.cont-section h6,.slider-content h6,.entry-content h6,.media-body h6 {
-        color: #061018!important;
-    }
-    .section-header p:not(.testimonial-section p), .entry-content p:not(.testimonial-section p),.about-section p,.cont-section p,.slider-content p,.woocommerce-product-details__short-description p,.search p,.error_404 p {
-        color: #061018!important;
-    }
 
-/* Sidebar */
-body .sidebar .section-header .widget-title, body .sidebar .wp-block-search .wp-block-search__label, body .sidebar .widget.widget_block h1, body .sidebar .widget.widget_block h2, body .sidebar .widget.widget_block h3, body .sidebar .widget.widget_block h4, body .sidebar .widget.widget_block h5, body .sidebar .widget.widget_block h6, body .sidebar .widget.widget_block .wc-block-product-search__label {
-    color: #ffffff!important;
-}
-body .sidebar p, .sidebar .wp-block-latest-posts__post-excerpt {
-    color: #64646d!important;
-}
-.sidebar a {
-    color: #64646d!important;
-}
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+/>
+    <title>
+        RED-Team – Erste Hilfe Kurs Hamburg
+    </title>
+
+    <meta
+        name="description"
+        content="Erste Hilfe Kurse, Notfalltraining, Sicherheitskurse und Sehtests für Führerscheinbewerber in Hamburg."
+    >
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
-/* Footer Widgets */
-    .site-footer p {
-        color: #fff;
-    }
-</style>
-<style>
-.custom-logo{width: 250px; height: auto;}
-</style>
-<meta name='robots' content='max-image-preview:large' />
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel="alternate" type="application/rss+xml" title="RED-Team - Erste Hilfe Kurs Hamburg &raquo; Feed" href="https://www.myredteam.de/feed/" />
-<link rel="alternate" type="application/rss+xml" title="RED-Team - Erste Hilfe Kurs Hamburg &raquo; Kommentar-Feed" href="https://www.myredteam.de/comments/feed/" />
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.myredteam.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.myredteam.de%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.myredteam.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.myredteam.de%2F&#038;format=xml" />
-<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
-img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
-/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
-</style>
-<link rel='stylesheet' id='spicepress-theme-fonts-css' href='https://www.myredteam.de/wp-content/fonts/5cd99fe0238c69742a33c103ab6fa280.css?ver=20201110' type='text/css' media='all' />
-<style id='wp-emoji-styles-inline-css' type='text/css'>
-
-	img.wp-smiley, img.emoji {
-		display: inline !important;
-		border: none !important;
-		box-shadow: none !important;
-		height: 1em !important;
-		width: 1em !important;
-		margin: 0 0.07em !important;
-		vertical-align: -0.1em !important;
-		background: none !important;
-		padding: 0 !important;
-	}
-/*# sourceURL=wp-emoji-styles-inline-css */
-</style>
-<style id='wp-block-library-inline-css' type='text/css'>
-:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
-
-/*# sourceURL=wp-block-library-inline-css */
-</style><style id='wp-block-list-inline-css' type='text/css'>
-ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
-/*# sourceURL=https://www.myredteam.de/wp-includes/blocks/list/style.min.css */
-</style>
-<style id='wp-block-paragraph-inline-css' type='text/css'>
-.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
-/*# sourceURL=https://www.myredteam.de/wp-includes/blocks/paragraph/style.min.css */
-</style>
-<style id='wp-block-quote-inline-css' type='text/css'>
-.wp-block-quote{box-sizing:border-box;overflow-wrap:break-word}.wp-block-quote.is-large:where(:not(.is-style-plain)),.wp-block-quote.is-style-large:where(:not(.is-style-plain)){margin-bottom:1em;padding:0 1em}.wp-block-quote.is-large:where(:not(.is-style-plain)) p,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) p{font-size:1.5em;font-style:italic;line-height:1.6}.wp-block-quote.is-large:where(:not(.is-style-plain)) cite,.wp-block-quote.is-large:where(:not(.is-style-plain)) footer,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) cite,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) footer{font-size:1.125em;text-align:right}.wp-block-quote>cite{display:block}
-/*# sourceURL=https://www.myredteam.de/wp-includes/blocks/quote/style.min.css */
-</style>
-<style id='wp-block-social-links-inline-css' type='text/css'>
-.wp-block-social-links{background:none;box-sizing:border-box;margin-left:0;padding-left:0;padding-right:0;text-indent:0}.wp-block-social-links .wp-social-link a,.wp-block-social-links .wp-social-link a:hover{border-bottom:0;box-shadow:none;text-decoration:none}.wp-block-social-links .wp-social-link svg{height:1em;width:1em}.wp-block-social-links .wp-social-link span:not(.screen-reader-text){font-size:.65em;margin-left:.5em;margin-right:.5em}.wp-block-social-links.has-small-icon-size{font-size:16px}.wp-block-social-links,.wp-block-social-links.has-normal-icon-size{font-size:24px}.wp-block-social-links.has-large-icon-size{font-size:36px}.wp-block-social-links.has-huge-icon-size{font-size:48px}.wp-block-social-links.aligncenter{display:flex;justify-content:center}.wp-block-social-links.alignright{justify-content:flex-end}.wp-block-social-link{border-radius:9999px;display:block}@media not (prefers-reduced-motion){.wp-block-social-link{transition:transform .1s ease}}.wp-block-social-link{height:auto}.wp-block-social-link a{align-items:center;display:flex;line-height:0}.wp-block-social-link:hover{transform:scale(1.1)}.wp-block-social-links .wp-block-social-link.wp-social-link{display:inline-block;margin:0;padding:0}.wp-block-social-links .wp-block-social-link.wp-social-link .wp-block-social-link-anchor,.wp-block-social-links .wp-block-social-link.wp-social-link .wp-block-social-link-anchor svg,.wp-block-social-links .wp-block-social-link.wp-social-link .wp-block-social-link-anchor:active,.wp-block-social-links .wp-block-social-link.wp-social-link .wp-block-social-link-anchor:hover,.wp-block-social-links .wp-block-social-link.wp-social-link .wp-block-social-link-anchor:visited{color:currentColor;fill:currentColor}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link{background-color:#f0f0f0;color:#444}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-amazon{background-color:#f90;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-bandcamp{background-color:#1ea0c3;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-behance{background-color:#0757fe;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-bluesky{background-color:#0a7aff;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-codepen{background-color:#1e1f26;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-deviantart{background-color:#02e49b;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-discord{background-color:#5865f2;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-dribbble{background-color:#e94c89;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-dropbox{background-color:#4280ff;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-etsy{background-color:#f45800;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-facebook{background-color:#0866ff;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-fivehundredpx{background-color:#000;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-flickr{background-color:#0461dd;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-foursquare{background-color:#e65678;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-github{background-color:#24292d;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-goodreads{background-color:#eceadd;color:#382110}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-google{background-color:#ea4434;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-gravatar{background-color:#1d4fc4;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-instagram{background-color:#f00075;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-lastfm{background-color:#e21b24;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-linkedin{background-color:#0d66c2;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-mastodon{background-color:#3288d4;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-medium{background-color:#000;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-meetup{background-color:#f6405f;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-patreon{background-color:#000;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-pinterest{background-color:#e60122;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-pocket{background-color:#ef4155;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-reddit{background-color:#ff4500;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-skype{background-color:#0478d7;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-snapchat{background-color:#fefc00;color:#fff;stroke:#000}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-soundcloud{background-color:#ff5600;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-spotify{background-color:#1bd760;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-telegram{background-color:#2aabee;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-threads{background-color:#000;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-tiktok{background-color:#000;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-tumblr{background-color:#011835;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-twitch{background-color:#6440a4;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-twitter{background-color:#1da1f2;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-vimeo{background-color:#1eb7ea;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-vk{background-color:#4680c2;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-wordpress{background-color:#3499cd;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-whatsapp{background-color:#25d366;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-x{background-color:#000;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-yelp{background-color:#d32422;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-youtube{background-color:red;color:#fff}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link{background:none}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link svg{height:1.25em;width:1.25em}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-amazon{color:#f90}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-bandcamp{color:#1ea0c3}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-behance{color:#0757fe}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-bluesky{color:#0a7aff}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-codepen{color:#1e1f26}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-deviantart{color:#02e49b}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-discord{color:#5865f2}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-dribbble{color:#e94c89}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-dropbox{color:#4280ff}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-etsy{color:#f45800}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-facebook{color:#0866ff}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-fivehundredpx{color:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-flickr{color:#0461dd}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-foursquare{color:#e65678}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-github{color:#24292d}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-goodreads{color:#382110}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-google{color:#ea4434}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-gravatar{color:#1d4fc4}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-instagram{color:#f00075}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-lastfm{color:#e21b24}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-linkedin{color:#0d66c2}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-mastodon{color:#3288d4}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-medium{color:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-meetup{color:#f6405f}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-patreon{color:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-pinterest{color:#e60122}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-pocket{color:#ef4155}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-reddit{color:#ff4500}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-skype{color:#0478d7}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-snapchat{color:#fff;stroke:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-soundcloud{color:#ff5600}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-spotify{color:#1bd760}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-telegram{color:#2aabee}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-threads{color:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-tiktok{color:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-tumblr{color:#011835}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-twitch{color:#6440a4}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-twitter{color:#1da1f2}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-vimeo{color:#1eb7ea}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-vk{color:#4680c2}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-whatsapp{color:#25d366}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-wordpress{color:#3499cd}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-x{color:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-yelp{color:#d32422}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-youtube{color:red}.wp-block-social-links.is-style-pill-shape .wp-social-link{width:auto}:root :where(.wp-block-social-links .wp-social-link a){padding:.25em}:root :where(.wp-block-social-links.is-style-logos-only .wp-social-link a){padding:0}:root :where(.wp-block-social-links.is-style-pill-shape .wp-social-link a){padding-left:.6666666667em;padding-right:.6666666667em}.wp-block-social-links:not(.has-icon-color):not(.has-icon-background-color) .wp-social-link-snapchat .wp-block-social-link-label{color:#000}
-/*# sourceURL=https://www.myredteam.de/wp-includes/blocks/social-links/style.min.css */
-</style>
-<style id='global-styles-inline-css' type='text/css'>
-:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-/*# sourceURL=global-styles-inline-css */
-</style>
-
-<style id='classic-theme-styles-inline-css' type='text/css'>
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-/*# sourceURL=/wp-includes/css/classic-themes.min.css */
-</style>
-<link rel='stylesheet' id='contact-form-7-css' href='https://www.myredteam.de/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.4' type='text/css' media='all' />
-<link rel='stylesheet' id='events-manager-css' href='https://www.myredteam.de/wp-content/plugins/events-manager/includes/css/events-manager.min.css?ver=7.2.3' type='text/css' media='all' />
-<link rel='stylesheet' id='events-manager-pro-css' href='https://www.myredteam.de/wp-content/plugins/events-manager-pro/includes/css/events-manager-pro.css?ver=3.7.2.3' type='text/css' media='all' />
-<link rel='stylesheet' id='sps-font-awesome-css' href='https://www.myredteam.de/wp-content/plugins/spice-post-slider/assets/css/font-awesome/css/all.min.css?ver=5.15.4' type='text/css' media='all' />
-<link rel='stylesheet' id='sps-owl-css' href='https://www.myredteam.de/wp-content/plugins/spice-post-slider/assets/css/owl.carousel.css?ver=2.2.1' type='text/css' media='all' />
-<link rel='stylesheet' id='sps-front-css' href='https://www.myredteam.de/wp-content/plugins/spice-post-slider/assets/css/front.css?ver=2.2.1' type='text/css' media='all' />
-<link rel='stylesheet' id='sps-google-fonts-css' href='//fonts.googleapis.com/css?family=ABeeZee%7CAbel%7CAbril+Fatface%7CAclonica%7CAcme%7CActor%7CAdamina%7CAdvent+Pro%7CAguafina+Script%7CAkronim%7CAladin%7CAldrich%7CAlef%7CAlegreya%7CAlegreya+SC%7CAlegreya+Sans%7CAlegreya+Sans+SC%7CAlex+Brush%7CAlfa+Slab+One%7CAlice%7CAlike%7CAlike+Angular%7CAllan%7CAllerta%7CAllerta+Stencil%7CAllura%7CAlmendra%7CAlmendra+Display%7CAlmendra+SC%7CAmarante%7CAmaranth%7CAmatic+SC%7CAmatica+SC%7CAmethysta%7CAmiko%7CAmiri%7CAmita%7CAnaheim%7CAndada%7CAndika%7CAngkor%7CAnnie+Use+Your+Telescope%7CAnonymous+Pro%7CAntic%7CAntic+Didone%7CAntic+Slab%7CAnton%7CArapey%7CArbutus%7CArbutus+Slab%7CArchitects+Daughter%7CArchivo+Black%7CArchivo+Narrow%7CAref+Ruqaa%7CArima+Madurai%7CArimo%7CArizonia%7CArmata%7CArtifika%7CArvo%7CArya%7CAsap%7CAsar%7CAsset%7CAssistant%7CAstloch%7CAsul%7CAthiti%7CAtma%7CAtomic+Age%7CAubrey%7CAudiowide%7CAutour+One%7CAverage%7CAverage+Sans%7CAveria+Gruesa+Libre%7CAveria+Libre%7CAveria+Sans+Libre%7CAveria+Serif+Libre%7CBad+Script%7CBaloo%7CBaloo+Bhai%7CBaloo+Da%7CBaloo+Thambi%7CBalthazar%7CBangers%7CBasic%7CBattambang%7CBaumans%7CBayon%7CBelgrano%7CBelleza%7CBenchNine%7CBentham%7CBerkshire+Swash%7CBevan%7CBigelow+Rules%7CBigshot+One%7CBilbo%7CBilbo+Swash+Caps%7CBioRhyme%7CBioRhyme+Expanded%7CBiryani%7CBitter%7CBlack+Ops+One%7CBokor%7CBonbon%7CBoogaloo%7CBowlby+One%7CBowlby+One+SC%7CBrawler%7CBree+Serif%7CBubblegum+Sans%7CBubbler+One%7CBuda%7CBuenard%7CBungee%7CBungee+Hairline%7CBungee+Inline%7CBungee+Outline%7CBungee+Shade%7CButcherman%7CButterfly+Kids%7CCabin%7CCabin+Condensed%7CCabin+Sketch%7CCaesar+Dressing%7CCagliostro%7CCairo%7CCalligraffitti%7CCambay%7CCambo%7CCandal%7CCantarell%7CCantata+One%7CCantora+One%7CCapriola%7CCardo%7CCarme%7CCarrois+Gothic%7CCarrois+Gothic+SC%7CCarter+One%7CCatamaran%7CCaudex%7CCaveat%7CCaveat+Brush%7CCedarville+Cursive%7CCeviche+One%7CChanga%7CChanga+One%7CChango%7CChathura%7CChau+Philomene+One%7CChela+One%7CChelsea+Market%7CChenla%7CCherry+Cream+Soda%7CCherry+Swash%7CChewy%7CChicle%7CChivo%7CChonburi%7CCinzel%7CCinzel+Decorative%7CClicker+Script%7CCoda%7CCoda+Caption%7CCodystar%7CCoiny%7CCombo%7CComfortaa%7CComing+Soon%7CConcert+One%7CCondiment%7CContent%7CContrail+One%7CConvergence%7CCookie%7CCopse%7CCorben%7CCormorant%7CCormorant+Garamond%7CCormorant+Infant%7CCormorant+SC%7CCormorant+Unicase%7CCormorant+Upright%7CCourgette%7CCousine%7CCoustard%7CCovered+By+Your+Grace%7CCrafty+Girls%7CCreepster%7CCrete+Round%7CCrimson+Text%7CCroissant+One%7CCrushed%7CCuprum%7CCutive%7CCutive+Mono%7CDamion%7CDancing+Script%7CDangrek%7CDavid+Libre%7CDawning+of+a+New+Day%7CDays+One%7CDekko%7CDelius%7CDelius+Swash+Caps%7CDelius+Unicase%7CDella+Respira%7CDenk+One%7CDevonshire%7CDhurjati%7CDidact+Gothic%7CDiplomata%7CDiplomata+SC%7CDomine%7CDonegal+One%7CDoppio+One%7CDorsa%7CDosis%7CDr+Sugiyama%7CDroid+Sans%7CDroid+Sans+Mono%7CDroid+Serif%7CDuru+Sans%7CDynalight%7CEB+Garamond%7CEagle+Lake%7CEater%7CEconomica%7CEczar%7CEk+Mukta%7CEl+Messiri%7CElectrolize%7CElsie%7CElsie+Swash+Caps%7CEmblema+One%7CEmilys+Candy%7CEngagement%7CEnglebert%7CEnriqueta%7CErica+One%7CEsteban%7CEuphoria+Script%7CEwert%7CExo%7CExo+2%7CExpletus+Sans%7CFanwood+Text%7CFarsan%7CFascinate%7CFascinate+Inline%7CFaster+One%7CFasthand%7CFauna+One%7CFederant%7CFedero%7CFelipa%7CFenix%7CFinger+Paint%7CFira+Mono%7CFira+Sans%7CFjalla+One%7CFjord+One%7CFlamenco%7CFlavors%7CFondamento%7CFontdiner+Swanky%7CForum%7CFrancois+One%7CFrank+Ruhl+Libre%7CFreckle+Face%7CFredericka+the+Great%7CFredoka+One%7CFreehand%7CFresca%7CFrijole%7CFruktur%7CFugaz+One%7CGFS+Didot%7CGFS+Neohellenic%7CGabriela%7CGafata%7CGalada%7CGaldeano%7CGalindo%7CGentium+Basic%7CGentium+Book+Basic%7CGeo%7CGeostar%7CGeostar+Fill%7CGermania+One%7CGidugu%7CGilda+Display%7CGive+You+Glory%7CGlass+Antiqua%7CGlegoo%7CGloria+Hallelujah%7CGoblin+One%7CGochi+Hand%7CGorditas%7CGoudy+Bookletter+1911%7CGraduate%7CGrand+Hotel%7CGravitas+One%7CGreat+Vibes%7CGriffy%7CGruppo%7CGudea%7CGurajada%7CHabibi%7CHalant%7CHammersmith+One%7CHanalei%7CHanalei+Fill%7CHandlee%7CHanuman%7CHappy+Monkey%7CHarmattan%7CHeadland+One%7CHeebo%7CHenny+Penny%7CHerr+Von+Muellerhoff%7CHind%7CHind+Guntur%7CHind+Madurai%7CHind+Siliguri%7CHind+Vadodara%7CHoltwood+One+SC%7CHomemade+Apple%7CHomenaje%7CIM+Fell+DW+Pica%7CIM+Fell+DW+Pica+SC%7CIM+Fell+Double+Pica%7CIM+Fell+Double+Pica+SC%7CIM+Fell+English%7CIM+Fell+English+SC%7CIM+Fell+French+Canon%7CIM+Fell+French+Canon+SC%7CIM+Fell+Great+Primer%7CIM+Fell+Great+Primer+SC%7CIceberg%7CIceland%7CImprima%7CInconsolata%7CInder%7CIndie+Flower%7CInika%7CInknut+Antiqua%7CIrish+Grover%7CIstok+Web%7CItaliana%7CItalianno%7CItim%7CJacques+Francois%7CJacques+Francois+Shadow%7CJaldi%7CJim+Nightshade%7CJockey+One%7CJolly+Lodger%7CJomhuria%7CJosefin+Sans%7CJosefin+Slab%7CJoti+One%7CJudson%7CJulee%7CJulius+Sans+One%7CJunge%7CJura%7CJust+Another+Hand%7CJust+Me+Again+Down+Here%7CKadwa%7CKalam%7CKameron%7CKanit%7CKantumruy%7CKarla%7CKarma%7CKatibeh%7CKaushan+Script%7CKavivanar%7CKavoon%7CKdam+Thmor%7CKeania+One%7CKelly+Slab%7CKenia%7CKhand%7CKhmer%7CKhula%7CKite+One%7CKnewave%7CKotta+One%7CKoulen%7CKranky%7CKreon%7CKristi%7CKrona+One%7CKumar+One%7CKumar+One+Outline%7CKurale%7CLa+Belle+Aurore%7CLaila%7CLakki+Reddy%7CLalezar%7CLancelot%7CLateef%7CLato%7CLeague+Script%7CLeckerli+One%7CLedger%7CLekton%7CLemon%7CLemonada%7CLibre+Baskerville%7CLibre+Franklin%7CLife+Savers%7CLilita+One%7CLily+Script+One%7CLimelight%7CLinden+Hill%7CLobster%7CLobster+Two%7CLondrina+Outline%7CLondrina+Shadow%7CLondrina+Sketch%7CLondrina+Solid%7CLora%7CLove+Ya+Like+A+Sister%7CLoved+by+the+King%7CLovers+Quarrel%7CLuckiest+Guy%7CLusitana%7CLustria%7CMacondo%7CMacondo+Swash+Caps%7CMada%7CMagra%7CMaiden+Orange%7CMaitree%7CMako%7CMallanna%7CMandali%7CMarcellus%7CMarcellus+SC%7CMarck+Script%7CMargarine%7CMarko+One%7CMarmelad%7CMartel%7CMartel+Sans%7CMarvel%7CMate%7CMate+SC%7CMaven+Pro%7CMcLaren%7CMeddon%7CMedievalSharp%7CMedula+One%7CMeera+Inimai%7CMegrim%7CMeie+Script%7CMerienda%7CMerienda+One%7CMerriweather%7CMerriweather+Sans%7CMetal%7CMetal+Mania%7CMetrophobic%7CMichroma%7CMilonga%7CMiltonian%7CMiltonian+Tattoo%7CMiniver%7CMiriam+Libre%7CMirza%7CMiss+Fajardose%7CMitr%7CModak%7CModern+Antiqua%7CMogra%7CMolengo%7CMolle%7CMonda%7CMonofett%7CMonoton%7CMonsieur+La+Doulaise%7CMontaga%7CMontez%7CMontserrat%7CMontserrat+Alternates%7CMontserrat+Subrayada%7CMoul%7CMoulpali%7CMountains+of+Christmas%7CMouse+Memoirs%7CMr+Bedfort%7CMr+Dafoe%7CMr+De+Haviland%7CMrs+Saint+Delafield%7CMrs+Sheppards%7CMukta+Vaani%7CMuli%7CMystery+Quest%7CNTR%7CNeucha%7CNeuton%7CNew+Rocker%7CNews+Cycle%7CNiconne%7CNixie+One%7CNobile%7CNokora%7CNorican%7CNosifer%7CNothing+You+Could+Do%7CNoticia+Text%7CNoto+Sans%7CNoto+Serif%7CNova+Cut%7CNova+Flat%7CNova+Mono%7CNova+Oval%7CNova+Round%7CNova+Script%7CNova+Slim%7CNova+Square%7CNumans%7CNunito%7CNunito+Sans%7COutfit%7COdor+Mean+Chey%7COffside%7COld+Standard+TT%7COldenburg%7COleo+Script%7COleo+Script+Swash+Caps%7COpen+Sans%7COpen+Sans+Condensed%7COranienbaum%7COrbitron%7COregano%7COrienta%7COriginal+Surfer%7COswald%7COver+the+Rainbow%7COverlock%7COverlock+SC%7COvo%7COxygen%7COxygen+Mono%7CPT+Mono%7CPT+Sans%7CPT+Sans+Caption%7CPT+Sans+Narrow%7CPT+Serif%7CPT+Serif+Caption%7CPacifico%7CPalanquin%7CPalanquin+Dark%7CPaprika%7CParisienne%7CPassero+One%7CPassion+One%7CPathway+Gothic+One%7CPatrick+Hand%7CPatrick+Hand+SC%7CPattaya%7CPatua+One%7CPavanam%7CPaytone+One%7CPeddana%7CPeralta%7CPermanent+Marker%7CPetit+Formal+Script%7CPetrona%7CPhilosopher%7CPiedra%7CPinyon+Script%7CPirata+One%7CPlaster%7CPlay%7CPlayball%7CPlayfair+Display%7CPlayfair+Display+SC%7CPodkova%7CPoiret+One%7CPoller+One%7CPoly%7CPompiere%7CPontano+Sans%7CPoppins%7CPort+Lligat+Sans%7CPort+Lligat+Slab%7CPragati+Narrow%7CPrata%7CPreahvihear%7CPress+Start+2P%7CPridi%7CPrincess+Sofia%7CProciono%7CPrompt%7CProsto+One%7CProza+Libre%7CPuritan%7CPurple+Purse%7CQuando%7CQuantico%7CQuattrocento%7CQuattrocento+Sans%7CQuestrial%7CQuicksand%7CQuintessential%7CQwigley%7CRacing+Sans+One%7CRadley%7CRajdhani%7CRakkas%7CRaleway%7CRaleway+Dots%7CRamabhadra%7CRamaraja%7CRambla%7CRammetto+One%7CRanchers%7CRancho%7CRanga%7CRasa%7CRationale%7CRedressed%7CReem+Kufi%7CReenie+Beanie%7CRevalia%7CRhodium+Libre%7CRibeye%7CRibeye+Marrow%7CRighteous%7CRisque%7CRoboto%7CRoboto+Condensed%7CRoboto+Mono%7CRoboto+Slab%7CRochester%7CRock+Salt%7CRokkitt%7CRomanesco%7CRopa+Sans%7CRosario%7CRosarivo%7CRouge+Script%7CRozha+One%7CRubik%7CRubik+Mono+One%7CRubik+One%7CRuda%7CRufina%7CRuge+Boogie%7CRuluko%7CRum+Raisin%7CRuslan+Display%7CRuthie%7CRye%7CSacramento%7CSahitya%7CSail%7CSalsa%7CSanchez%7CSancreek%7CSansita+One%7CSarala%7CSarina%7CSarpanch%7CSatisfy%7CScada%7CScheherazade%7CSchoolbell%7CScope+One%7CSeaweed+Script%7CSecular+One%7CSen%7CSevillana%7CSeymour+One%7CShadows+Into+Light%7CShadows+Into+Light+Two%7CShanti%7CShare%7CShare+Tech%7CShare+Tech+Mono%7CShojumaru%7CShort+Stack%7CShrikhand%7CSiemreap%7CSigmar+One%7CSignika%7CSignika+Negative%7CSimonetta%7CSintony%7CSirin+Stencil%7CSix+Caps%7CSkranji%7CSlabo+13px%7CSlabo+27px%7CSlackey%7CSmokum%7CSmythe%7CSniglet%7CSnippet%7CSnowburst+One%7CSofadi+One%7CSofia%7CSonsie+One%7CSorts+Mill+Goudy%7CSource+Code+Pro%7CSource+Sans+Pro%7CSource+Serif+Pro%7CSpace+Mono%7CSpecial+Elite%7CSpicy+Rice%7CSpinnaker%7CSpirax%7CSquada+One%7CSree+Krushnadevaraya%7CSriracha%7CStalemate%7CStalinist+One%7CStardos+Stencil%7CStint+Ultra+Condensed%7CStint+Ultra+Expanded%7CStoke%7CStrait%7CSue+Ellen+Francisco%7CSuez+One%7CSumana%7CSunshiney%7CSupermercado+One%7CSura%7CSuranna%7CSuravaram%7CSuwannaphum%7CSwanky+and+Moo+Moo%7CSyncopate%7CTangerine%7CTaprom%7CTauri%7CTaviraj%7CTeko%7CTelex%7CTenali+Ramakrishna%7CTenor+Sans%7CText+Me+One%7CThe+Girl+Next+Door%7CTienne%7CTillana%7CTimmana%7CTinos%7CTitan+One%7CTitillium+Web%7CTrade+Winds%7CTrirong%7CTrocchi%7CTrochut%7CTrykker%7CTulpen+One%7CUbuntu%7CUbuntu+Condensed%7CUbuntu+Mono%7CUltra%7CUncial+Antiqua%7CUnderdog%7CUnica+One%7CUnifrakturCook%7CUnifrakturMaguntia%7CUnkempt%7CUnlock%7CUnna%7CVT323%7CVampiro+One%7CVarela%7CVarela+Round%7CVast+Shadow%7CVesper+Libre%7CVibur%7CVidaloka%7CViga%7CVoces%7CVolkhov%7CVollkorn%7CVoltaire%7CWaiting+for+the+Sunrise%7CWallpoet%7CWalter+Turncoat%7CWarnes%7CWellfleet%7CWendy+One%7CWire+One%7CWork+Sans%7CYanone+Kaffeesatz%7CYantramanav%7CYatra+One%7CYellowtail%7CYeseva+One%7CYesteryear%7CYrsa%7CZeyada&#038;subset=latin%2Clatin-ext&#038;ver=2.2.1' type='text/css' media='all' />
-<link rel='stylesheet' id='tbk-scripts-css-css' href='https://www.myredteam.de/wp-content/plugins/team-booking//dist/frontend.css?ver=1676306944' type='text/css' media='all' />
-<link rel='stylesheet' id='tbk-scripts-vendor-css-css' href='https://www.myredteam.de/wp-content/plugins/team-booking//dist/frontendVendor.css?ver=1676306944' type='text/css' media='all' />
-<link rel='stylesheet' id='tbk_fonts-css' href='//fonts.googleapis.com/css?family=Oswald%7COpen+Sans%3A300italic%2C400%2C300%2C700&#038;ver=1.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-fullcalendar-css' href='https://www.myredteam.de/wp-content/plugins/wp-fullcalendar/includes/css/main.css?ver=1.6' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-fullcalendar-tippy-light-css' href='https://www.myredteam.de/wp-content/plugins/wp-fullcalendar/includes/css/tippy/light.css?ver=1.6' type='text/css' media='all' />
-<link rel='stylesheet' id='jquery-ui-css' href='https://www.myredteam.de/wp-content/plugins/wp-fullcalendar/includes/css/jquery-ui/ui-lightness/jquery-ui.min.css?ver=1.6' type='text/css' media='all' />
-<link rel='stylesheet' id='jquery-ui-theme-css' href='https://www.myredteam.de/wp-content/plugins/wp-fullcalendar/includes/css/jquery-ui/ui-lightness/theme.css?ver=1.6' type='text/css' media='all' />
-<link rel='stylesheet' id='spicepress-default-css' href='https://www.myredteam.de/wp-content/themes/spicepress/css/default.css?ver=6.9' type='text/css' media='all' />
-<link rel='stylesheet' id='bootstrap-css' href='https://www.myredteam.de/wp-content/themes/spicepress/css/bootstrap.css?ver=6.9' type='text/css' media='all' />
-<link rel='stylesheet' id='spicepress-style-css' href='https://www.myredteam.de/wp-content/themes/certify/style.css?ver=6.9' type='text/css' media='all' />
-<link rel='stylesheet' id='animate.min-css-css' href='https://www.myredteam.de/wp-content/themes/spicepress/css/animate.min.css?ver=6.9' type='text/css' media='all' />
-<link rel='stylesheet' id='spicepress-font-awesome-css' href='https://www.myredteam.de/wp-content/themes/spicepress/css/font-awesome/css/all.min.css?ver=6.9' type='text/css' media='all' />
-<link rel='stylesheet' id='spicepress-media-responsive-css-css' href='https://www.myredteam.de/wp-content/themes/spicepress/css/media-responsive.css?ver=6.9' type='text/css' media='all' />
-<link rel='stylesheet' id='certify-default-style-css-css' href='https://www.myredteam.de/wp-content/themes/certify/css/default.css?ver=6.9' type='text/css' media='all' />
-<link rel='stylesheet' id='certify-parent-style-css' href='style.css' type='text/css' media='all' />
-<link rel='stylesheet' id='certify-theme-menu-style-css' href='https://www.myredteam.de/wp-content/themes/certify/css/theme-menu.css?ver=6.9' type='text/css' media='all' />
-<link rel='stylesheet' id='certify-media-responsive-css-css' href='https://www.myredteam.de/wp-content/themes/certify/css/media-responsive.css?ver=6.9' type='text/css' media='all' />
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3" id="jquery-ui-mouse-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.3" id="jquery-ui-sortable-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3" id="jquery-ui-datepicker-js"></script>
-<script type="text/javascript" id="jquery-ui-datepicker-js-after">
-/* <![CDATA[ */
-jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Schlie\u00dfen","currentText":"Heute","monthNames":["Januar","Februar","M\u00e4rz","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"monthNamesShort":["Jan.","Feb.","M\u00e4rz","Apr.","Mai","Juni","Juli","Aug.","Sep.","Okt.","Nov.","Dez."],"nextText":"Weiter","prevText":"Zur\u00fcck","dayNames":["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"],"dayNamesShort":["So.","Mo.","Di.","Mi.","Do.","Fr.","Sa."],"dayNamesMin":["S","M","D","M","D","F","S"],"dateFormat":"d. MM yy","firstDay":1,"isRTL":false});});
-//# sourceURL=jquery-ui-datepicker-js-after
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/ui/resizable.min.js?ver=1.13.3" id="jquery-ui-resizable-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.3" id="jquery-ui-draggable-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/ui/controlgroup.min.js?ver=1.13.3" id="jquery-ui-controlgroup-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/ui/checkboxradio.min.js?ver=1.13.3" id="jquery-ui-checkboxradio-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/ui/button.min.js?ver=1.13.3" id="jquery-ui-button-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/ui/dialog.min.js?ver=1.13.3" id="jquery-ui-dialog-js"></script>
-<script type="text/javascript" id="events-manager-js-extra">
-/* <![CDATA[ */
-var EM = {"ajaxurl":"https://www.myredteam.de/wp-admin/admin-ajax.php","locationajaxurl":"https://www.myredteam.de/wp-admin/admin-ajax.php?action=locations_search","firstDay":"1","locale":"de","dateFormat":"yy-mm-dd","ui_css":"https://www.myredteam.de/wp-content/plugins/events-manager/includes/css/jquery-ui/build.min.css","show24hours":"1","is_ssl":"1","autocomplete_limit":"10","calendar":{"breakpoints":{"small":560,"medium":908,"large":false},"month_format":"M Y"},"phone":"","datepicker":{"format":"Y-m-d","locale":"de"},"search":{"breakpoints":{"small":650,"medium":850,"full":false}},"url":"https://www.myredteam.de/wp-content/plugins/events-manager","assets":{"input.em-uploader":{"js":{"em-uploader":{"url":"https://www.myredteam.de/wp-content/plugins/events-manager/includes/js/em-uploader.js?v=7.2.3","event":"em_uploader_ready","requires":"filepond"},"filepond-validate-size":"filepond/plugins/filepond-plugin-file-validate-size.js?v=7.2.3","filepond-validate-type":"filepond/plugins/filepond-plugin-file-validate-type.js?v=7.2.3","filepond-image-validate-size":"filepond/plugins/filepond-plugin-image-validate-size.js?v=7.2.3","filepond-exif-orientation":"filepond/plugins/filepond-plugin-image-exif-orientation.js?v=7.2.3","filepond-get-file":"filepond/plugins/filepond-plugin-get-file.js?v=7.2.3","filepond-plugin-image-overlay":"filepond/plugins/filepond-plugin-image-overlay.js?v=7.2.3","filepond-plugin-image-thumbnail":"filepond/plugins/filepond-plugin-image-thumbnail.js?v=7.2.3","filepond-plugin-pdf-preview-overlay":"filepond/plugins/filepond-plugin-pdf-preview-overlay.js?v=7.2.3","filepond-plugin-file-icon":"filepond/plugins/filepond-plugin-file-icon.js?v=7.2.3","filepond":{"url":"filepond/filepond.js?v=7.2.3","locale":"de-de"}},"css":{"em-filepond":"filepond/em-filepond.min.css?v=7.2.3","filepond-preview":"filepond/plugins/filepond-plugin-image-preview.min.css?v=7.2.3","filepond-plugin-image-overlay":"filepond/plugins/filepond-plugin-image-overlay.min.css?v=7.2.3","filepond-get-file":"filepond/plugins/filepond-plugin-get-file.min.css?v=7.2.3"}},".em-event-editor":{"js":{"event-editor":{"url":"https://www.myredteam.de/wp-content/plugins/events-manager/includes/js/events-manager-event-editor.js?v=7.2.3","event":"em_event_editor_ready"}},"css":{"event-editor":"https://www.myredteam.de/wp-content/plugins/events-manager/includes/css/events-manager-event-editor.min.css?v=7.2.3"}},".em-recurrence-sets, .em-timezone":{"js":{"luxon":{"url":"luxon/luxon.js?v=7.2.3","event":"em_luxon_ready"}}},".em-booking-form, #em-booking-form, .em-booking-recurring, .em-event-booking-form":{"js":{"em-bookings":{"url":"https://www.myredteam.de/wp-content/plugins/events-manager/includes/js/bookingsform.js?v=7.2.3","event":"em_booking_form_js_loaded"},"em-coupons":{"url":"https://www.myredteam.de/wp-content/plugins/events-manager-pro/add-ons/coupons/coupons.js?v=3.7.2.3","requires":"em-bookings"}},"css":{"em-coupons":"https://www.myredteam.de/wp-content/plugins/events-manager-pro/add-ons/coupons/coupons.min.css?v=3.7.2.3"}},"#em-opt-archetypes":{"js":{"archetypes":"https://www.myredteam.de/wp-content/plugins/events-manager/includes/js/admin-archetype-editor.js?v=7.2.3","archetypes_ms":"https://www.myredteam.de/wp-content/plugins/events-manager/includes/js/admin-archetypes.js?v=7.2.3","qs":"qs/qs.js?v=7.2.3"}},".em-cart-coupons-form":{"js":{"em-coupons-cart":{"url":"https://www.myredteam.de/wp-content/plugins/events-manager-pro/add-ons/coupons/coupons-cart.js?v=3.7.2.3","event":"em_timepicker_ready"}},"css":{"em-coupons":"https://www.myredteam.de/wp-content/plugins/events-manager-pro/add-ons/coupons/coupons.min.css?v=3.7.2.3"}}},"cached":"","uploads":{"endpoint":"https://www.myredteam.de/wp-json/events-manager/v1/uploads","nonce":"9f6ad20a08","delete_confirm":"Bist du sicher, dass du diese Datei l\u00f6schen m\u00f6chtest? Sie wird beim Absenden gel\u00f6scht.","images":{"max_file_size":"204800","image_max_width":"1200","image_max_height":"1200","image_min_width":"400","image_min_height":"400"},"files":{"max_file_size":"204800","types":{"0":"image/gif","1":"image/jpeg","3":"image/png","4":"image/heic"}}},"api_nonce":"336f87c2a8","bookingInProgress":"Bitte warte, w\u00e4hrend die Buchung abgeschickt wird.","tickets_save":"Ticket speichern","bookingajaxurl":"https://www.myredteam.de/wp-admin/admin-ajax.php","bookings_export_save":"Buchungen exportieren","bookings_settings_save":"Einstellungen speichern","booking_delete":"Bist du dir sicher, dass du es l\u00f6schen m\u00f6chtest?","booking_offset":"30","bookings":{"submit_button":{"text":{"default":"zahlungspflichtig bestellen","free":"zahlungspflichtig bestellen","payment":"zahlungspflichtig bestellen - %s","processing":"Verarbeitung \u2026"}},"update_listener":""},"bb_full":"Ausverkauft","bb_book":"Jetzt buchen","bb_booking":"Buche ...","bb_booked":"Buchung Abgesendet","bb_error":"Buchung Fehler. Nochmal versuchen?","bb_cancel":"Stornieren","bb_canceling":"Stornieren ...","bb_cancelled":"Abgesagt","bb_cancel_error":"Stornierung Fehler. Nochmal versuchen?","event_cancellations":{"warning":"Wenn du dich entscheidest, deine Veranstaltung abzusagen, sind nach dem Speichern dieser Veranstaltung keine weiteren Buchungen f\u00fcr diese Veranstaltung m\u00f6glich.\\n\\nAu\u00dferdem wird das Folgende passieren:\\n\\n- Die Buchungen werden automatisch storniert.\\n- Buchungsstornierungen werden per E-Mail verschickt.\\n- Alle best\u00e4tigten und noch ausstehenden Buchungen werden per E-Mail \u00fcber die Absage der Veranstaltung informiert."},"txt_search":"Suche","txt_searching":"Suche...","txt_loading":"Wird geladen\u00a0\u2026","event_detach_warning":"Bist du sicher, dass du diese sich wiederholende Veranstaltung herausl\u00f6sen willst? Wenn du dies tun, verlierst du alle Buchungsinformationen und die alten wiederkehrenden Veranstaltung werden gel\u00f6scht.","delete_recurrence_warning":"Bist du sicher, dass du alle Wiederholungen dieser Veranstaltung l\u00f6schen willst? Alle Veranstaltungen werden in den Papierkorb verschoben.","disable_bookings_warning":"Bist du sicher, dass du Buchungen deaktivieren willst? Wenn du das tust und speicherst, wirst du alle bisherigen Buchungen verlieren. Wenn du nur weitere Buchungen verhindern willst, reduziere die Anzahl der verf\u00fcgbaren Pl\u00e4tze auf die Anzahl der bisherigen Buchungen.","booking_warning_cancel":"Bist du sicher, dass du deine Buchung stornieren willst?","cache":"","attendance_api_url":"https://www.myredteam.de/wp-json/events-manager/v1/attendance"};
-//# sourceURL=events-manager-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=7.2.3" id="events-manager-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/plugins/events-manager/includes/external/flatpickr/l10n/de.js?ver=7.2.3" id="em-flatpickr-localization-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/plugins/events-manager-pro/includes/js/events-manager-pro.js?ver=3.7.2.3" id="events-manager-pro-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/ui/menu.min.js?ver=1.13.3" id="jquery-ui-menu-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/ui/selectmenu.min.js?ver=1.13.3" id="jquery-ui-selectmenu-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/jquery/ui/tooltip.min.js?ver=1.13.3" id="jquery-ui-tooltip-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1" id="moment-js"></script>
-<script type="text/javascript" id="moment-js-after">
-/* <![CDATA[ */
-moment.updateLocale( 'de_DE', {"months":["Januar","Februar","M\u00e4rz","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"monthsShort":["Jan.","Feb.","M\u00e4rz","Apr.","Mai","Juni","Juli","Aug.","Sep.","Okt.","Nov.","Dez."],"weekdays":["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"],"weekdaysShort":["So.","Mo.","Di.","Mi.","Do.","Fr.","Sa."],"week":{"dow":1},"longDateFormat":{"LT":"G:i","LTS":null,"L":null,"LL":"j. F Y","LLL":"j. F Y, G:i","LLLL":null}} );
-//# sourceURL=moment-js-after
-/* ]]> */
-</script>
-<script type="text/javascript" id="wp-fullcalendar-js-extra">
-/* <![CDATA[ */
-var WPFC = {"ajaxurl":"https://www.myredteam.de/wp-admin/admin-ajax.php?action=WP_FullCalendar","firstDay":"1","wpfc_theme":"jquery-ui","wpfc_limit":"3","wpfc_limit_txt":"more ...","timeFormat":"H:mm","defaultView":"month","weekends":"true","header":{"left":"prev,next today","center":"title","right":"month,basicWeek,basicDay"},"wpfc_qtips":"1","tippy_theme":"light-border","tippy_placement":"auto","tippy_loading":"Loading..."};
-//# sourceURL=wp-fullcalendar-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/plugins/wp-fullcalendar/includes/js/main.js?ver=1.6" id="wp-fullcalendar-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/themes/spicepress/js/bootstrap.min.js?ver=6.9" id="bootstrap-js"></script>
-<script type="text/javascript" id="spicepress-menu-js-js-extra">
-/* <![CDATA[ */
-var breakpoint_settings = {"menu_breakpoint":"1100"};
-//# sourceURL=spicepress-menu-js-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/themes/spicepress/js/menu/menu.js?ver=6.9" id="spicepress-menu-js-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/themes/spicepress/js/page-scroll.js?ver=6.9" id="spicepress-page-scroll-js-js"></script>
-<link rel="https://api.w.org/" href="https://www.myredteam.de/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.myredteam.de/wp-json/wp/v2/pages/671" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.myredteam.de/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 6.9" />
-<link rel="canonical" href="https://www.myredteam.de/" />
-<link rel='shortlink' href='https://www.myredteam.de/' />
-		<!-- Custom Logo: hide header text -->
-		<style id="custom-logo-css" type="text/css">
-			.site-title, .site-description {
-				position: absolute;
-				clip-path: inset(50%);
-			}
-		</style>
-		<style id="red-team-course-accordion-css" type="text/css">
-			#blog.home-news .course-card {
-				position: relative;
-				padding: 0;
-				border: 1px solid rgba(6, 16, 24, 0.1);
-				border-radius: 8px;
-				box-shadow: 0 12px 28px rgba(6, 16, 24, 0.08);
-				overflow: hidden;
-			}
-
-			#blog.home-news .course-card:hover {
-				box-shadow: 0 16px 34px rgba(6, 16, 24, 0.12);
-				transform: translateY(-2px);
-			}
-
-			#blog.home-news .course-card .entry-header {
-				display: flex;
-				align-items: center;
-				justify-content: space-between;
-				gap: 16px;
-				margin: 0;
-				padding: 22px 22px 14px;
-				cursor: pointer;
-			}
-
-			#blog.home-news .course-card .entry-header .entry-title {
-				margin: 0;
-			}
-
-			#blog.home-news .course-card .entry-content {
-				padding: 0 22px 22px;
-			}
-
-			#blog.home-news .course-card .em-events-list > p {
-				margin: 0 0 14px;
-				padding: 0 0 14px;
-				border-bottom: 1px solid rgba(6, 16, 24, 0.08);
-			}
-
-			#blog.home-news .course-card .em-events-list > p:empty {
-				display: none;
-			}
-
-			#blog.home-news .course-toggle {
-				flex: 0 0 auto;
-				width: 38px;
-				height: 38px;
-				border: 1px solid rgba(208, 2, 27, 0.32);
-				border-radius: 50%;
-				background: #ffffff;
-				color: #d0021b;
-				font-size: 1.4rem;
-				font-weight: 700;
-				line-height: 1;
-				cursor: pointer;
-				transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
-			}
-
-			#blog.home-news .course-toggle:hover,
-			#blog.home-news .course-toggle:focus {
-				background-color: #d0021b;
-				color: #ffffff;
-				outline: none;
-			}
-
-			#blog.home-news .course-card.is-collapsed .entry-content {
-				display: none;
-			}
-
-			#blog.home-news .course-card.is-expanded .course-toggle {
-				transform: rotate(45deg);
-			}
-
-			#blog.home-news .course-expand {
-				width: calc(100% - 44px);
-				margin: 0 22px 22px;
-				padding: 11px 14px;
-				border: 1px solid rgba(208, 2, 27, 0.24);
-				border-radius: 6px;
-				background: rgba(208, 2, 27, 0.06);
-				color: #d0021b;
-				font-weight: 700;
-				text-align: center;
-				cursor: pointer;
-			}
-
-			#blog.home-news .course-expand:hover,
-			#blog.home-news .course-expand:focus {
-				background-color: #d0021b;
-				color: #ffffff;
-				outline: none;
-			}
-
-			@media (max-width: 767px) {
-				#blog.home-news .course-card .entry-header {
-					padding: 18px 18px 12px;
-				}
-
-				#blog.home-news .course-card .entry-content {
-					padding: 0 18px 18px;
-				}
-
-				#blog.home-news .course-expand {
-					width: calc(100% - 36px);
-					margin: 0 18px 18px;
-				}
-			}
-		</style>
-		<style id="red-team-service-icons-css" type="text/css">
-			.service-section .post .post-thumbnail {
-				overflow: visible;
-			}
-
-			.service-section .service-icon-img {
-				display: inline-block;
-				width: 58px;
-				height: 58px;
-				object-fit: contain;
-			}
-		</style>
-		<style id="red-team-hero-button-css" type="text/css">
-			.slide-btn-sm:before,
-			.slide-btn-sm:after {
-				content: "";
-				font-family: inherit;
-			}
-
-			.slide-btn-sm:after {
-				top: 50%;
-				right: 1.1rem;
-				bottom: auto;
-				width: 0.72rem;
-				height: 0.72rem;
-				padding: 0;
-				border-top: 3px solid #fff;
-				border-right: 3px solid #fff;
-				transform: translateY(-50%) rotate(45deg);
-			}
-		</style>
-		<style id="red-team-footer-css" type="text/css">
-			.footer-sidebar .wp-block-social-links {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 12px;
-				margin: 0;
-				padding: 0;
-			}
-
-			.footer-sidebar .wp-block-social-links .wp-social-link {
-				width: 46px;
-				height: 46px;
-				margin: 0;
-				border: 1px solid rgba(255, 255, 255, 0.16);
-				border-radius: 8px;
-				background: rgba(255, 255, 255, 0.08);
-				color: #ffffff;
-				transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
-			}
-
-			.footer-sidebar .wp-block-social-links .wp-social-link:hover,
-			.footer-sidebar .wp-block-social-links .wp-social-link:focus-within {
-				background: #d0021b;
-				border-color: #d0021b;
-				transform: translateY(-2px);
-			}
-
-			.footer-sidebar .wp-block-social-links .wp-social-link a {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				width: 100%;
-				height: 100%;
-				color: inherit;
-				padding: 0;
-			}
-
-			.footer-sidebar .wp-block-social-links .wp-social-link svg {
-				width: 23px;
-				height: 23px;
-				fill: currentColor;
-			}
-
-			.site-info .red-team-trademark {
-				color: #ffffff;
-				font-weight: 700;
-				letter-spacing: 0.06em;
-				text-transform: uppercase;
-			}
-		</style>
-				<style type="text/css">
-			div.em-payment-gateway-form .em-pp-card-container {
-				display: grid;
-				grid-template-columns: 4fr 1fr 1fr;
-				grid-gap: 10px;
-			}
-			div.em-payment-gateway-form .em-pp-card-container > div:first-child {
-				grid-column: 1/4;
-			}
-			div.em-payment-gateway-form .em-pp-card-container .has-error, div.em-payment-gateway-form input[type="text"].em-pp-cc-name.has-error {
-				border: 1px solid red !important;
-			}
-			div.em-payment-gateway-form .em-pp-card-container label {
-				font-size: 14px !important;
-				line-height: 14px !important;
-				padding: 0 !important;
-				margin: 0 !important;
-				margin-bottom: 3px !important;
-			}
-			div.em-payment-gateway-form .em-pp-card-field > div {
-				width: 100%;
-				padding: 12px;
-				border: 1px solid #ccc;
-				border-radius: 4px;
-				margin-top: 6px;
-				margin-bottom: 10px;
-				height:40px;
-				font-family:helvetica, tahoma, calibri, sans-serif;
-				background: var(--background-color-inputs) !important
-			}
-		</style>
-		<style type="text/css">
-
-
-@media (max-width: 1100px) { 
-	.navbar-custom .dropdown-menu {
-		border-top: none;
-		border-bottom: none;	
-		box-shadow: none !important;
-		border: none;
-	}		
-}
-
-@media (min-width: 1100px) {
-.navbar-nav li button { display: none;} 
-}
-
-@media (min-width: 1100px){
-.navbar-nav ul.dropdown-menu  .caret {
-        float: right;
-        border: none;
-}}
-
-@media (min-width: 1100px){
-.navbar-nav ul.dropdown-menu  .caret:after {
-        content: "\203A";
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
-}}
-
-@media (max-width: 1100px){
-.caret {
-        position: absolute;
-        right: 0;
-        margin-top: 10px;
-        margin-right: 10px;
-}}
-
-
-@media (min-width: 100px) and (max-width: 1100px) { 
-	.navbar .navbar-nav > .active > a, 
-	.navbar .navbar-nav > .active > a:hover, 
-	.navbar .navbar-nav > .active > a:focus {
-		
-            color: #ce1b28;
-            background-color: transparent;
-	}
-	.navbar .navbar-nav > .open > a,
-	.navbar .navbar-nav > .open > a:hover,
-	.navbar .navbar-nav > .open > a:focus { 
-		background-color: transparent; 
-		
-		 color: #ce1b28;
-		border-bottom: 1px dotted #4c4a5f; 
-	}
-}
-
-/*===================================================================================*/
-/*	NAVBAR
-/*===================================================================================*/
-
-.navbar-custom {
-	background-color: #fff;
-	border: 0;
-	border-radius: 0;
-	z-index: 1000;
-	font-size: 1.000rem;
-	transition: background, padding 0.4s ease-in-out 0s;
-	margin: 0; 
-	min-height: 90px;
-}
-.navbar a { transition: color 0.125s ease-in-out 0s; }
-.navbar-custom .navbar-brand {
-	letter-spacing: 1px;
-	font-weight: 600;
-	font-size: 2.000rem;
-    line-height: 1.5;
-	color: #1b1b1b;
-	margin-left: 0px !important;
-	height: auto;
-	padding: 26px 30px 26px 15px;
-}
-.site-branding-text { float: left; margin: 0; padding: 13px 50px 13px 0; }
-.site-title { height: auto; font-size: 1.875rem; line-height: 1.3; font-weight: 600; margin: 0; padding: 0px; }
-.site-description { padding: 0; margin: 0; }
-.navbar-custom .navbar-nav li { margin: 0px; padding: 0; }
-.navbar-custom .navbar-nav li > a {
-	position: relative;
-	color: #1b1b1b;
-	font-weight: 600;
-	font-size: 0.875rem;
-	padding: 35px 17px;
-    transition: all 0.3s ease-in-out 0s;
-}
-.navbar-custom .navbar-nav li > a > i {
-    padding-left: 5px;
-}
-
-/*Dropdown Menu*/
-.navbar-custom .dropdown-menu {
-	border-radius: 0;
-	padding: 0;
-	min-width: 200px;
-    background-color: #21202e;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
-	position: static;
-	float: none;
-	width: auto;
-	margin-top: 0;
-}
-.navbar-custom .dropdown-menu > li { padding: 0 10px; margin: 0; }
-.navbar-custom .dropdown-menu > li > a {
-	color: #d5d5d5;
-    border-bottom: 1px dotted #363544;
-    font-weight: 600;
-    font-size: 0.875rem;
-    padding: 12px 15px;
-    transition: all 0.2s ease-in-out 0s;
-    letter-spacing: 0.7px;	
-	white-space: normal;
-}
-.navbar-custom .dropdown-menu > li > a:hover, 
-.navbar-custom .dropdown-menu > li > a:focus {
-    padding: 12px 15px 12px 20px;
-}
-.navbar-custom .dropdown-menu > li > a:hover, 
-.navbar-custom .dropdown-menu > li > a:focus {
-    color: #ffffff;
-    background-color: #282737;
-}
-.navbar-custom .dropdown-menu .dropdown-menu {
-	left: 100%;
-	right: auto;
-	top: 0;
-	margin-top: 0;
-}
-.navbar-custom .dropdown-menu.left-side .dropdown-menu {
-	border: 0;
-	right: 100%;
-	left: auto;
-}
-.navbar-custom .dropdown-menu .open > a,
-.navbar-custom .dropdown-menu .open > a:focus,
-.navbar-custom .dropdown-menu .open > a:hover {
-	background: #282737;
-	color: #fff;
-}
-.nav .open > a, 
-.nav .open > a:hover, 
-.nav .open > a:focus { 
-	border-color: #363544;
-} 
-.navbar-custom .dropdown-menu > .active > a, 
-.navbar-custom .dropdown-menu > .active > a:hover, 
-.navbar-custom .dropdown-menu > .active > a:focus {
-    color: #fff;
-    background-color: transparent;
-}
-.navbar-custom .navbar-toggle .icon-bar { background: #121213; width: 40px; height: 2px; }
-.navbar-toggle .icon-bar + .icon-bar { margin-top: 8px; }
-
-
-/*--------------------------------------------------------------
-	Menubar - Media Queries
---------------------------------------------------------------*/
-
-@media (min-width: 1100px){
-
-	.navbar-collapse.collapse {
-		display: block !important;
-	}
-	.navbar-nav {
-		margin: 0;
-	}
-	.navbar-custom .navbar-nav > li {
-		float: left;
-	}
-	.navbar-header {
-		float: left;
-	}
-	.navbar-toggle {
-		display: none;
-	}
-}
-
-
-
-@media (min-width: 768px){
-	.navbar-custom .navbar-brand {
-		padding: 20px 50px 20px 0;
-	}
-}
-@media (min-width: 1100px) {
-	.navbar-transparent { background: transparent; padding-bottom: 0px; padding-top: 0px; margin: 0; }
-	.navbar-custom .open > .dropdown-menu { visibility: visible; opacity: 1; }
-	.navbar-right .dropdown-menu { right: auto; left: 0; }
-}
- 
-
-@media (min-width: 1101px) {
-	.navbar-custom .container-fluid {
-		width: 970px;
-		padding-right: 15px;
-		padding-left: 15px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	
-	.navbar-custom .dropdown-menu { 
-		border-top: 2px solid #ce1b28 !important;
-		border-bottom: 2px solid #ce1b28 !important;
-		position: absolute !important; 
-		display: block; 
-		visibility: hidden; 
-		opacity: 0; 
-	}
-	.navbar-custom .dropdown-menu > li > a { padding: 12px 15px !important; }
-	.navbar-custom .dropdown-menu > li > a:hover, 
-	.navbar-custom .dropdown-menu > li > a:focus {
-		padding: 12px 15px 12px 20px !important;
-	}	
-	.navbar-custom .open .dropdown-menu { background-color: #21202e !important; }
-	
-	.navbar-custom .dropdown-menu > li > a i {
-        float: right;
-    }
-
-}
-@media (min-width: 1200px) {
-	.navbar-custom .container-fluid {
-		width: 1170px;
-		padding-right: 15px;
-		padding-left: 15px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-}
-
-
-/** BELOW MAX-WIDTH MEDIA QUERIES **/
-
-@media (max-width: 1100px) {
-	/* Navbar */
-	.navbar-custom .navbar-nav { letter-spacing: 0px; margin-top: 1px; margin-bottom: 0; }
-	.navbar-custom .navbar-nav li { margin: 0 15px; padding: 0; }
-	.navbar-custom .navbar-nav li > a { color: #bbb; padding: 12px 0px 12px 0px; }
-	.navbar-custom .navbar-nav > li > a:focus,
-	.navbar-custom .navbar-nav > li > a:hover {
-		background: transparent;
-		color: #fff;
-	}
-	.navbar-custom .dropdown-menu > li > a {
-		display: block;
-		clear: both;
-		font-weight: normal;
-	}
-	.navbar-custom .dropdown-menu > li > a:hover, 
-	.navbar-custom .dropdown-menu > li > a:focus {
-		background-color: #21202F;
-		color: #fff;
-		padding: 12px 0px 12px 0px;
-	}
-	.navbar-custom .open .dropdown-menu {
-		position: static;
-		float: none;
-		width: auto;
-		margin-top: 0;
-		background-color: transparent;
-		border: 0;
-		-webkit-box-shadow: none;
-		box-shadow: none;
-	}
-	.navbar-custom .open .dropdown-menu > li > a {
-		line-height: 20px;
-	}
-	.navbar-custom .open .dropdown-menu .dropdown-header,
-	.navbar-custom .open .dropdown-menu > li > a {
-		padding: 12px 0px;
-	}
-	.navbar-custom .open .dropdown-menu .dropdown-menu .dropdown-header,
-	.navbar-custom .open .dropdown-menu .dropdown-menu > li > a {
-		padding: 12px 0px;
-	}
-	.navbar-custom li a,
-	.navbar-custom .dropdown-search {
-		border-bottom: 1px dotted #4c4a5f !important;
-	}
-	.navbar-header { padding: 0px 15px; float: none; }
-	.navbar-custom .navbar-brand { padding: 20px 50px 20px 0px; }
-	.navbar-toggle { display: block; margin: 24px 15px 24px 0; padding: 9px 0px; }
-	.site-branding-text { padding: 17px 50px 17px 15px; }
-	.navbar-collapse { border-top: 1px solid transparent; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
-	.navbar-collapse.collapse { display: none!important; }
-	.navbar-custom .navbar-nav { background-color: #21202e; float: none!important; margin: 0px }
-	.navbar-custom .navbar-nav > li { float: none; }
-	.navbar-collapse.collapse.in { display: block!important; }
-	.collapsing { overflow: hidden!important; }
-	
-}
-@media (max-width: 1100px) { 
-	.navbar-custom .dropdown a > i.fa {
-		font-size: 0.938rem;
-		position: absolute;
-		right: 0;
-		margin-top: -6px;
-		top: 50%;
-		padding-left: 7px;
-	}	
-}
-@media (max-width: 768px) {
-	.navbar-header { padding: 0 15px; }
-	.navbar-custom .navbar-brand { padding: 20px 50px 20px 15px; }
-}
-@media (max-width: 500px) { 
-	.navbar-custom .navbar-brand { float: none; display: block; text-align: center; padding: 25px 15px 12px 15px; }
-	.navbar-custom .navbar-brand img { margin: 0 auto; }
-	.site-branding-text { padding: 17px 15px 17px 15px; float: none; text-align: center; }
-	.navbar-toggle { float: none; margin: 10px auto 25px; }	
-}
-
-
-
-/*===================================================================================*/
-/*	CART ICON 
-/*===================================================================================*/
-.cart-header {
-	width: 40px;
-	height: 40px;
-	line-height: 1.6;
-	text-align: center;
-	background: transparent;
-	position: relative;
-	float: right;
-	margin: 25px 7px 25px 20px;
-}
-.cart-header > a.cart-icon {
-    -wekbit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    display: inline-block;
-    font-size: 1.125rem;
-    color: #202020;
-    width: 100%;
-    height: 100%;
-	border: 1px solid #eaeaea;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	padding: 4px;
-}
-.cart-header > a .cart-total {
-    font-family: 'Open Sans', Sans-serif;
-    font-size: 0.688rem;
-	line-height: 1.7;
-    color: #ffffff;
-	font-weight: 600;
-    position: absolute;
-    right: -7px;
-    top: -7px;
-	padding: 1px;
-    width: 1.225rem;
-    height: 1.225rem;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-	-wekbit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-@media (min-width: 100px) and (max-width: 1100px) { 
-.cart-header { float: left; margin: 20px 7px 20px 15px !important; }
-.cart-header > a.cart-icon { color: #fff; }
-}
-
-
-/*--------------------------------------------------------------
-	Navbar Overlapped & Stiky Header Css
---------------------------------------------------------------*/ 
-body.blog .header-overlapped { 
-	margin: 0px; 
-}
-body.page-template-template-business .header-overlapped, 
-body.page-template-template-overlaped .header-overlapped { 
-    background-color: transparent; 
-    margin: 0; 
-    position: relative; 
-    z-index: 99; 
-}
-.header-overlapped .page-title-section { background-color: transparent !important; }
-.navbar-overlapped {
-	position: absolute;
-	right: 0;
-	left: 0;
-	top: 0;
-	z-index: 20;
-	background-color: rgba(36, 30, 34, 0.34);
-}
-@media (min-width:500px) {
-    body.page-template-template-business .navbar-overlapped { 
-        position: absolute; 
-        right: 0; 
-        left: 0; 
-        top: 0; 
-        z-index: 20;
-    }
-}
-.navbar-overlapped { min-height: 90px; position: relative; }
-.header-overlapped .page-seperate {display: none;}
-.navbar-overlapped .navbar-brand { padding: 20px 0px; color: #ffffff; }
-.navbar-overlapped .navbar-brand:hover, 
-.navbar-overlapped .navbar-brand:focus { 
-	color: #ffffff; 
-}
-.navbar-overlapped .site-title a, 
-.navbar-overlapped .site-title a:hover, 
-.navbar-overlapped .site-title a:focus, 
-.navbar-overlapped .site-description {
-    color: #fff;
-}
-.navbar-overlapped .navbar-nav > li > a {
-	color: #fff;
-	border-bottom: 2px solid transparent;
-	margin-left: 5px;
-	margin-right: 5px;
-}
-.navbar-overlapped .navbar-nav > li > a:hover, 
-.navbar-overlapped .navbar-nav > li > a:focus {
-    background-color: transparent;
-    color: #fff;
-    border-bottom: 2px solid rgba(255,255,255,1);
-}
-.navbar-overlapped .navbar-nav > .open > a,
-.navbar-overlapped .navbar-nav > .open > a:hover,
-.navbar-overlapped .navbar-nav > .open > a:focus { 
-	background-color: transparent; 
-	color: #fff; 
-	border-bottom: 2px solid transparent; 
-} 
-.navbar-overlapped .navbar-nav > .active > a, 
-.navbar-overlapped .navbar-nav > .active > a:hover, 
-.navbar-overlapped .navbar-nav > .active > a:focus { 
-	background-color: transparent !important;
-    color: #fff;
-    border-bottom: 2px solid rgba(255,255,255,1);
-}
-.navbar-overlapped .cart-header { width: 25px; height: 25px; margin: 33px 7px 32px 20px; }
-.navbar-overlapped .cart-header > a.cart-icon { color: #fff; border: 1px solid #ffffff; }
-.navbar-overlapped .cart-header > a.cart-icon { width: auto; height: auto; border: 0 none; padding: 0; }
-.navbar-overlapped .cart-header > a .cart-total { right: -11px; top: -4px; }
-
-/*Header Stiky Menu*/
-.stiky-header{
-    position: fixed !important;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-	background: rgba(36, 30, 34, 0.88);
-	transition: all 0.3s ease;
-	min-height: 70px;
-	box-shadow: 0 2px 3px rgba(0,0,0,.1)
-}
-.navbar-overlapped.stiky-header .navbar-brand { padding: 10px 0px; }
-.navbar-overlapped.stiky-header .site-branding-text { padding: 3px 50px 3px 15px; }
-.navbar-overlapped.stiky-header .navbar-nav > li > a { padding: 24px 10px; }
-.navbar-overlapped.stiky-header .cart-header { margin: 23px 7px 22px 20px; }
-
-/*--------------------------------------------------------------
-	Menubar - Media Queries
---------------------------------------------------------------*/
-
-@media (min-width: 768px){
-	.navbar-custom .navbar-brand {
-		padding: 20px 50px 20px 0;
-	}
-}
-/** BELOW MAX-WIDTH MEDIA QUERIES **/
-
-@media (max-width: 768px) {
-	.navbar-custom .navbar-brand { padding: 20px 50px 20px 15px; }
-}
-@media (max-width: 500px) { 
-	.navbar-custom .navbar-brand { float: none; display: block; text-align: center; padding: 20px 15px 25px 15px; }
-	.navbar-custom .navbar-brand img { margin: 0 auto; }
-	.site-branding-text { padding: 17px 15px 17px 15px; float: none; text-align: center; }
-	.navbar-toggle { float: none; margin: 10px auto 25px; }
-	/*Navbar Overlapped*/
-	.navbar-overlapped { position: relative; background-color: rgba(36, 30, 34, 0.9); border-bottom: 1px solid rgba(82, 58, 67, 0.7); }
-	.navbar-overlapped .navbar-collapse.in { bottom: 0px; }
-	.navbar-overlapped .navbar-collapse { bottom: 0px; }	
-	.navbar-overlapped.stiky-header .navbar-toggle { float: none; margin: 10px auto 25px; }
-	.navbar-overlapped.stiky-header .site-branding-text { 
-		padding: 17px 15px 17px 15px; 
-		float: none; 
-		text-align: center; 
-	}
-	body.blog .navbar-overlapped { position: relative; }
-	
-}
-
-/*--------------------------------------------------------------
-	Navbar Classic Header Css
---------------------------------------------------------------*/
-
-
-.navbar-classic { z-index: 20; background-color: rgba(36, 30, 34, 0.92); }
-.navbar-classic { min-height: 60px; }
-.navbar-classic .navbar-nav { float: none !important; }
-.desktop-header .navbar-classic .navbar-nav > li > a { color: #fff; padding: 20px 25px; }
-.navbar-classic .navbar-collapse { border-top: 1px solid #434158; }
-.navbar-classic .cart-header { width: 25px; height: 25px; margin: 18px 10px 17px 20px; }
-.navbar-classic .cart-header > a.cart-icon { color: #fff; border: 1px solid #ffffff; }
-.navbar-classic .cart-header > a.cart-icon { width: auto; height: auto; border: 0 none; padding: 0; }
-.navbar-classic .cart-header > a .cart-total { right: -11px; top: -4px; }
-.header-widget-info .navbar-brand { height: auto; padding: 15px 0px; }
-
-/*--------------------------------------------------------------
-	Menubar - Media Queries
---------------------------------------------------------------*/
-
-@media (min-width: 768px){
-	.navbar-custom .navbar-brand {
-		padding: 20px 50px 20px 0;
-	}
-	/* Navbar Classic */
-	.navbar-classic .navbar-nav { float: none !important; }
-}
-
-
-/*-------------------------------------------------------------------------
-/* Navbar - Logo Right Align with Menu
--------------------------------------------------------------------------*/
-
-@media (min-width: 1101px) {
-	.navbar-header.align-right {
-		float: right;
-	}
-	.navbar-header.align-right ~ .navbar-collapse { padding-left: 0; }
-}
-@media (max-width: 1100px) {  
-	.navbar-header.align-right .navbar-toggle { 
-		float: left;
-		margin-left: 15px;
-	}
-}
-.navbar-brand.align-right, .site-branding-text.align-right {
-	float: right;
-	margin-right: 0px;
-	margin-left: 50px;
-	padding-right: 0px;
-}
-@media (max-width: 768px) {
-	.navbar-brand.align-right, .site-branding-text.align-right {
-		padding-right: 15px;
-	}
-}
-@media (max-width: 500px) {
-	.navbar-brand.align-right{ 
-		float: none;
-		padding: 10px 15px 30px 15px;
-	}
-    .site-branding-text.align-right { 
-		float: none;
-		padding: 10px 15px 30px 15px;
-		margin-left: 0;
-	}		
-	.navbar-header.align-right .navbar-toggle { 
-		float: none;
-		margin: 30px auto 10px; 
-	}
-}
-.p-lef-right-0 { padding-left: 0; padding-right: 0; }
-
-
-/*-------------------------------------------------------------------------
-/* Navbar - Logo Center Align with Menu
--------------------------------------------------------------------------*/
-
-.mobile-header-center { display: none; }
-@media (max-width: 1100px){
-	.desktop-header-center {
-		display: none !important;
-	}
-	.mobile-header-center {
-		display: block !important;
-	}
-}
-.navbar-center-fullwidth .container-fluid {
-	padding-left: 0px;
-	padding-right: 0px;
-	width: auto;
-}
-@media (min-width: 1101px) {
-	.navbar-center-fullwidth .logo-area { 
-		margin: 0 auto;
-		padding: 40px 0;
-		text-align: center;
-	}
-	.navbar-brand.align-center, .site-branding-text.align-center{
-		float: none;
-		padding: 0px;
-		display: inline-block;
-	}	
-	.navbar-center-fullwidth .navbar-nav {
-		float: none;
-		margin: 0 auto;
-		display: table;
-	}
-}
-.navbar-center-fullwidth .navbar-collapse {
-    border-top: 1px solid #e9e9e9;
-	border-bottom: 1px solid #e9e9e9;
-}
-.navbar-center-fullwidth .navbar-nav > .active > a, 
-.navbar-center-fullwidth .navbar-nav > .active > a:hover, 
-.navbar-center-fullwidth .navbar-nav > .active > a:focus {
-    color: #ce1b28 !important;
-    background-color: transparent !important;
-}
-.navbar-center-fullwidth .navbar-nav li > a {
-    padding: 20px;
-}
-.navbar-center-fullwidth .dropdown-menu > li > a {
-    padding: 12px 15px;
-}
-.navbar-center-fullwidth .sp-search-area {
-    margin-top: 10px;
-    margin-bottom: 8px;
-}
-
-</style>
-<link rel="icon" href="https://www.myredteam.de/wp-content/uploads/2019/12/cropped-icon-neu-32x32.png" sizes="32x32" />
-<link rel="icon" href="https://www.myredteam.de/wp-content/uploads/2019/12/cropped-icon-neu-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://www.myredteam.de/wp-content/uploads/2019/12/cropped-icon-neu-180x180.png" />
-<meta name="msapplication-TileImage" content="https://www.myredteam.de/wp-content/uploads/2019/12/cropped-icon-neu-270x270.png" />
 </head>
-<body class="home wp-singular page-template page-template-template-business page-template-template-business-php page page-id-671 wp-custom-logo wp-theme-spicepress wp-child-theme-certify wide" >
-<div id="wrapper">
-	<a class="skip-link spicepress-screen-reader" href="#content">Skip to content</a>
-<header class="header-overlapped">
-<nav class="navbar-overlapped navbar navbar-custom navigation" role="navigation">
-	<div class="container-fluid p-l-r-0">
-			<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<a href="https://www.myredteam.de/" class="navbar-brand " rel="home" aria-current="page"><img width="730" height="447" src="RedTeamLogo.png" class="custom-logo" alt="Erste Hilfe Kurs Hamburg Führerschein" decoding="async" fetchpriority="high" sizes="(max-width: 730px) 100vw, 730px" /></a>			<div class="site-branding-text">
-				<h1 class="site-title"><a href="https://www.myredteam.de/" rel="home">RED-Team &#8211; Erste Hilfe Kurs Hamburg</a></h1>
-									<p class="site-description">Rettung einfach durchgeführt</p>
-							</div>
-			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-		</div>
-		
-		
-	
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		
-		<div class="collapse navbar-collapse" id="custom-collapse">
-						<ul id="menu-hauptmenue" class="nav navbar-nav navbar-right"><li id="menu-item-717" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-671 current_page_item menu-item-717 active"><a href="https://www.myredteam.de/">Start</a></li>
-<li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-100"><a href="https://www.myredteam.de/leistungen/">Leistungen<b class="caret"></b></a>
-<ul class="dropdown-menu">
-	<li id="menu-item-269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-269"><a href="https://www.myredteam.de/erste-hilfe-fuer-fahrschueler/">Erste Hilfe für Fahrschüler</a></li>
-	<li id="menu-item-223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-223"><a href="https://www.myredteam.de/erste-hilfe-am-kind-fur-eltern/">Erste Hilfe am Kind für Eltern</a></li>
-	<li id="menu-item-381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a href="https://www.myredteam.de/erste-hilfe-am-hund/">Erste Hilfe am Hund</a></li>
-	<li id="menu-item-238" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-238"><a href="/brandschutzhelfer">Brandschutzhelfer</a></li>
-	<li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a href="https://www.myredteam.de/erste-hilfe-im-betrieb/">Erste Hilfe im Betrieb</a></li>
-	<li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136"><a href="https://www.myredteam.de/notfalltraining/">Notfalltraining</a></li>
-	<li id="menu-item-239" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-239"><a href="/kombi-schulung">Kombi-Schulung</a></li>
-	<li id="menu-item-224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224"><a href="https://www.myredteam.de/teambuilding/">Teambuilding</a></li>
-	<li id="menu-item-222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-222"><a href="https://www.myredteam.de/individuelle-erste-hilfe-schulungskonzepte/">Individuelle Erste-Hilfe-Schulungskonzepte</a></li>
-</ul>
-</li>
-<li id="menu-item-844" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-844"><a href="https://www.myredteam.de/veranstaltungen/veranstaltungsorte/">Kursorte</a></li>
-<li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="https://www.myredteam.de/ueber-mich/">Über mich</a></li>
-<li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"><a href="https://www.myredteam.de/kontakt/">Kontakt</a></li>
-</ul>				
-		</div><!-- /.navbar-collapse -->
-		<!-- /.navbar-collapse -->
-	</div><!-- /.container-fluid -->
-</nav>
-</header><div id="content">	<section class="slider" style="position:relative;">
-		<div class="item" style="background-image:url(https://www.myredteam.de/wp-content/uploads/2019/12/Myredteam-erste-hilfe.jpg); width: 100%; height: 90vh; background-position: center center; background-size: cover; z-index: 0;" >
-					<div class="overlay" style="background-color:rgba(0,0,0,0.30)"></div>
-						<div class="container">
-					<div class="format-standard">
-												<div class="slide-text-bg1">
-												<h1>Rettung Einfach Durchgeführt.</h1>
-												<p>Herzlich Willkommen bei RED-Team. Unser Herz schlägt für die Erste Hilfe, denn sie kann Leben retten.</p>
-												</div>
-												<div class="slide-btn-area-sm">						
-						<a  href="https://www.myredteam.de/leistungen/" 
-						 class="slide-btn-sm">
-						Leistungen</a>
-						</div>
-												
-					</div>	
-				</div>	
-			</div>
-	</section>
-			    <!-- Section Title -->
-<section class="service-section">
-	<div class="container">		
-				<div class="row">
-			<div class="col-md-12">
-				<div class="section-header">
-										<h1 class="widget-title">
-					RED-TEAM Hamburg					</h1>
-										<div class="widget-separator"><span></span></div>
-										<div class="separator"><span></span></div>
-					<p class="wow fadeInDown animated">
-					Wir helfen, Sie für Notfälle besser zu wappnen und bieten verschiedene Schulungen um das Thema "Erste Hilfe" an. Für Privatpersonen, Unternehmen oder Arztpraxen. Sprechen Sie mit uns - wir möchten, dass Sie sich im Notfall sicher fühlen! Ein Auszug aus unseren Kursen:					</p>
-									</div>
-			</div>
-		</div>
-		<!-- /Section Title -->
-			
-		<div class="row" id="service_content_section">				<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="post text-center wow flipInX animated" data-wow-delay=".5s">
-			
-										
-								
-								<figure class="post-thumbnail">	
-														<a href="https://www.myredteam.de/erste-hilfe-am-kind-fur-eltern/"  >
-														
-							<img class="service-icon-img" src="erste-hilfe-am-kind-fur-eltern.png" alt="Erste Hilfe am Kind">
-									
-												</a>
-												</figure>	
-															
-								
-										<a href="https://www.myredteam.de/erste-hilfe-am-kind-fur-eltern/"  >
-														
-								<div class="entry-header">
-								<h4 class="entry-title">Erste Hilfe am Kind</h4>
-								</div>
-													</a>
-										
-																	</a>
-											
-							<div class="entry-content">
-							<p>Ein Kurs für (werdende) Eltern, Großeltern und andere Privatpersonen die für den Notfall bei Kindern gewappnet sein wollen.</p>
-							</div>
-			
-							
-									</div>
-			</div>
-								<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="post text-center wow flipInX animated" data-wow-delay=".5s">
-			
-										
-								
-								<figure class="post-thumbnail">	
-														<a href="https://www.myredteam.de/erste-hilfe-fuer-fahrschueler/"  >
-														
-							<img class="service-icon-img" src="erste-hilfe-fuer-fahrschueler.png" alt="Erste Hilfe fÃ¼r FahrschÃ¼ler">
-									
-												</a>
-												</figure>	
-															
-								
-										<a href="https://www.myredteam.de/erste-hilfe-fuer-fahrschueler/"  >
-														
-								<div class="entry-header">
-								<h4 class="entry-title">Erste Hilfe für Fahrschüler</h4>
-								</div>
-													</a>
-										
-																	</a>
-											
-							<div class="entry-content">
-							<p>Unsere Erste Hilfe Kurse für Fahrschüler richten sich an alle, die einen Erste Hilfe Kurs für ihren Führerschein benötigen.</p>
-							</div>
-			
-							
-									</div>
-			</div>
-								<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="post text-center wow flipInX animated" data-wow-delay=".5s">
-			
-										
-								
-								<figure class="post-thumbnail">	
-														<a href="https://www.myredteam.de/erste-hilfe-am-hund/"  >
-														
-							<img class="service-icon-img" src="rste-hilfe-am-hund.png" alt="Erste Hilfe am Hund">
-									
-												</a>
-												</figure>	
-															
-								
-										<a href="https://www.myredteam.de/erste-hilfe-am-hund/"  >
-														
-								<div class="entry-header">
-								<h4 class="entry-title">Erste Hilfe am Hund</h4>
-								</div>
-													</a>
-										
-																	</a>
-											
-							<div class="entry-content">
-							<p>In unseren Kursen sprechen wir über viele Themen und Notfallsituation die Dich und Deinen Hund erwarten könnten. </p>
-							</div>
-			
-							
-									</div>
-			</div>
-				</div><!-- /.row --><div class="row"></div>		
-			</div>
-</section>
-<section class="testimonial-section" style="background-image:url('https://www.myredteam.de/wp-content/plugins/spicebox/inc/spicepress/images/testimonial/testimonial-bg.jpg'); background-repeat: no-repeat; background-position: top left;">
-		<div class="overlay"style="background-color:rgba(0,0,0,0.6)">
-	<div class="container">
-				
-		
-				
-			<!-- Section Title -->
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-header">
-						<h1 class="white wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="500ms">
-						RED-TEAM 						</h1>
-						<div class="widget-separator"><span></span></div>
-						<p class="white wow fadeInDown animated">
-						Felix Pluns, Gründer, Inhaber und Macher von RED-Team Hamburg						</p>
-					</div>
-				</div>
-			</div>
-						<!-- /Section Title -->
-			<!-- Testimonial -->
-			<div class="row">
-				 <div class="item">
-						<div class="media testmonial-area">
-														<div class="author-box">
-								<img width="779" height="780" src="https://www.myredteam.de/wp-content/uploads/2026/05/home-felix.jpg" class="rounded-circle" alt="img" decoding="async" srcset="https://www.myredteam.de/wp-content/uploads/2026/05/home-felix.jpg 779w, https://www.myredteam.de/wp-content/uploads/2026/05/home-felix-300x300.jpg 300w, https://www.myredteam.de/wp-content/uploads/2026/05/home-felix-150x150.jpg 150w, https://www.myredteam.de/wp-content/uploads/2026/05/home-felix-768x769.jpg 768w" sizes="(max-width: 779px) 100vw, 779px" />							</div>
-														<div class="media-body">
-								<div class="description-box">
-									<div class="author-description">
-									<p>Der tragische Tod eines guten Freundes hat mir damals die Augen geöffnet. Wenn jemand das Vertrauen in sich selbst und die Sicherheit zu Helfen gehabt hätte, dann wäre er vielleicht noch am Leben. Im Notfall zählt jede Sekunde und es braucht nur einen Helfer, der weiß was zu tun ist.									</p>
-									</div>									
-								</div>
-																<h4>  - <span class="designation">Ich entschied mich dazu in den Rettungsdienst zu gehen und selbst Menschen und Leben zu retten.</span>
-								</h4>
-															</div>
-							
-								
-						</div>	
-					</div>
-			</div>
-			<!-- /Testimonial -->	
-			
-		</div>	
-	</div>	
-</section>
-<!-- /Testimonial Section -->
-<div class="clearfix"></div>
 
-		<!-- Latest News section -->
-<section class="home-news" id="blog">
-	<div class="container">
-			    <!-- Section Title -->
-		<div class="row">
-			<div class="col-md-12">
-				<div class="section-header">
-										<h1 class="widget-title wow fadeInUp animated animated" data-wow-duration="500ms" data-wow-delay="0ms">
-					Erste Hilfe Kurse in Hamburg					</h1>
-										<div class="widget-separator"><span></span></div>
-										<p class="wow fadeInDown animated">
-					Unsere Erste Hilfe Kurse und Erste Hilfe Fortbildungen sind nach DGUV-Vorschrift  durch die VBG als Qualitätssicherungsstelle der Berufsgenossenschaft, unter der Kennziffer 8.1376 als Kurse für Betriebliche Ersthelfer anerkannt. Unsere Kurse beinhalten alle vorgeschriebenen Pausen.					</p>
-									</div>
-			</div>
-		</div>
-		<!-- /Section Title -->
-			
-		<div class="row">
-					
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				<article class="post wow fadeInDown animated" data-wow-delay="0.4s">
-				    					<header class="entry-header">
-						<h4 class="entry-title"><a href="https://www.myredteam.de/721-2/">Erste Hilfe für Fahrschüler</a></h4>
-				    					</header>		
-										<div class="entry-content">
-						<div class="em em-view-container" id="em-view-1258044327" data-view="list">
-	<div class="em pixelbones em-list em-events-list" id="em-events-list-1258044327" data-view-id="1258044327">
-	</p>
-<p>30. Mai 2026 | 14:30  - 21:00 <br /><a href="https://www.myredteam.de/events/erste-hilfe-fuer-fahrschueler-in-sternschanze-30-05-2026/">Erste Hilfe für Fahrschüler in Sternschanze 30.05.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-sternschanze-2/">Hamburg Sternschanze</a>)</p>
-<p></p>
-<p>31. Mai 2026 | 10:00  - 16:30 <br /><a href="https://www.myredteam.de/events/erste-hilfe-fuer-fahrschueler-in-sasel-31-05-2026/">Erste Hilfe für Fahrschüler in Sasel 31.05.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-sasel/">Hamburg Sasel</a>)</p>
-<p></p>
-<p>6. Juni 2026 | 10:00  - 16:30 <br /><a href="https://www.myredteam.de/events/erste-hilfe-fuer-fahrschueler-in-wandsbek-06-06-2026/">Erste Hilfe für Fahrschüler in Wandsbek 06.06.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-wandsbek/">Hamburg Wandsbek</a>)</p>
-<p></p>
-<p>7. Juni 2026 | 10:00  - 16:30 <br /><a href="https://www.myredteam.de/events/erste-hilfe-fuer-fahrschueler-in-bergstedt-07-06-2026/">Erste Hilfe für Fahrschüler in Bergstedt 07.06.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-bergstedt/">Hamburg Bergstedt</a>)</p>
-<p></p>
-<p>7. Juni 2026 | 10:00  - 16:30 <br /><a href="https://www.myredteam.de/events/erste-hilfe-fuer-fahrschueler-in-poppenbuettel-07-06-2026/">Erste Hilfe für Fahrschüler in Poppenbüttel 07.06.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-poppenbuettel/">Hamburg Poppenbüttel</a>)</p>
-<p>	</div>
+<body id="top">
+
+    <!-- HEADER -->
+    <header class="main-header">
+
+        <div class="container header-container">
+
+            <!-- LOGO -->
+            <a href="/" class="logo">
+
+                <img
+                    src="assets/images/logos/RedTeamLogo.png"
+                    alt="RED-Team Hamburg"
+                >
+
+            </a>
+
+            <!-- NAVIGATION -->
+            <nav class="desktop-nav">
+
+                <ul class="nav-list">
+
+                    <li>
+                        <a href="/" class="active">
+                            Start
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/services.html">
+                            Leistungen
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/locations.html">
+                            Kursorte
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#about">
+                            Über uns
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/contact.html">
+                            Kontakt
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <!-- ACTIONS -->
+            <div class="header-actions">
+
+                <div class="language-switcher">
+
+                    <a href="/" class="active">
+                        DE
+                    </a>
+
+                    <span>|</span>
+
+                    <a href="/en/">
+                        EN
+                    </a>
+
+                </div>
+
+                <a href="/contact.html" class="btn btn-primary">
+
+                    Kontakt Uns
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+    <section class="hero-section">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-container">
+
+            <div class="hero-content">
+
+                <span class="hero-tag">
+                    Erste Hilfe • Sicherheit • Prävention
+                </span>
+
+                <h1>
+                    Rettung Einfach Durchgeführt.
+                </h1>
+
+                <p>
+                    Willkommen bei RED-Team Hamburg.
+                    Unser Herz schlägt für die Erste Hilfe,
+                    denn sie kann Leben retten.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="/services.html" class="btn btn-primary">
+                        Unsere Leistungen
+                    </a>
+
+                    <a href="/contact.html" class="btn btn-secondary">
+                        Kontakt
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about-section">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <span class="section-tag">
+                    RED-TEAM HAMBURG
+                </span>
+
+                <h2>
+                    Sicherheit beginnt mit Wissen.
+                </h2>
+
+                <p>
+                    Wir helfen Menschen, Unternehmen und Fahrschülern,
+                    sich auf Notfälle vorzubereiten.
+                    Unsere Schulungen vermitteln praxisnahe Fähigkeiten,
+                    die im Ernstfall Leben retten können.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOUNDER SECTION -->
+
+<section class="founder-section">
+
+    <div class="container founder-grid">
+
+        <!-- IMAGE -->
+        <div class="founder-image">
+
+            <img
+                src="assets/images/team/home-felix.jpg"
+                alt="Felix - RED-Team Hamburg"
+            >
+
+        </div>
+
+        <!-- CONTENT -->
+        <div class="founder-content">
+
+            <span class="section-tag">
+                DER GRÜNDER
+            </span>
+
+            <h2>
+                Hilfe leisten kann jeder lernen.
+            </h2>
+
+            <div class="founder-quote">
+
+    <span class="quote-mark">
+        “
+    </span>
+
+    <p>
+        RED-Team entstand aus der Überzeugung,
+        dass Erste Hilfe keine Option,
+        sondern gesellschaftliche Verantwortung ist.
+        Jeder Mensch kann Leben retten —
+        wenn er vorbereitet ist.
+    </p>
+
 </div>
 
+            <p>
+                Unser Ziel ist es,
+                Erste Hilfe verständlich,
+                modern und praxisnah zu vermitteln.
+                Ohne Angst. Ohne komplizierte Theorie.
+            </p>
 
+            <h4>
+                — Felix, Gründer von RED-Team
+            </h4>
 
-<p><a href="https://www.myredteam.de/veranstaltungen/">vollständige Kursliste mit Buchungsmöglichkeit</a></p>
-					</div>						
-				</article>
-			</div>
-						
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				<article class="post wow fadeInDown animated" data-wow-delay="0.4s">
-				    					<header class="entry-header">
-						<h4 class="entry-title"><a href="https://www.myredteam.de/erste-hilfe-am-hund/">Erste Hilfe am Hund</a></h4>
-				    					</header>		
-										<div class="entry-content">
-						<div class="em em-view-container" id="em-view-1170600275" data-view="list">
-	<div class="em pixelbones em-list em-events-list" id="em-events-list-1170600275" data-view-id="1170600275">
-	</p>
-<p>21. Juni 2026 | 15:00  - 18:30 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-hund-am-21-06-2026/">Erste Hilfe am Hund am 21.06.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-wandsbek/">Hamburg Wandsbek</a>)</p>
-<p></p>
-<p>16. August 2026 | 15:00  - 18:30 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-hund-am-16-08-2026/">Erste Hilfe am Hund am 16.08.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-wandsbek/">Hamburg Wandsbek</a>)</p>
-<p></p>
-<p>11. Oktober 2026 | 15:00  - 18:30 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-hund-am-11-10-2026/">Erste Hilfe am Hund am 11.10.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-wandsbek/">Hamburg Wandsbek</a>)</p>
-<p></p>
-<p>6. Dezember 2026 | 15:00  - 18:30 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-hund-am-06-12-2026/">Erste Hilfe am Hund am 06.12.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-wandsbek/">Hamburg Wandsbek</a>)</p>
-<p>	</div>
-</div>
-					</div>						
-				</article>
-			</div>
-						
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				<article class="post wow fadeInDown animated" data-wow-delay="0.4s">
-				    					<header class="entry-header">
-						<h4 class="entry-title"><a href="https://www.myredteam.de/erste-hilfe-am-kind/">Erste Hilfe am Kind</a></h4>
-				    					</header>		
-										<div class="entry-content">
-						<div class="em em-view-container" id="em-view-1160084557" data-view="list">
-	<div class="em pixelbones em-list em-events-list" id="em-events-list-1160084557" data-view-id="1160084557">
-	</p>
-<p>13. Juni 2026 | 10:00  - 14:00 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-kind-am-13-06-2026/">Erste Hilfe am Kind am 13.06.2026 (Ausgebucht)</a> (<a href="https://www.myredteam.de/locations/hamburg-wellingsbuettel/">Hamburg Wellingsbüttel</a>)</p>
-<p></p>
-<p>20. Juni 2026 | 10:00  - 14:00 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-kind-in-hamm-20-06-2026-deutsch-englisch/">Erste Hilfe am Kind in Hamm 20.06.2026 (Deutsch) Ausgebucht</a> (<a href="https://www.myredteam.de/locations/hamburg-hamm/">Hamburg Hamm</a>)</p>
-<p></p>
-<p>20. Juni 2026 | 14:30  - 18:30 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-kind-in-hamm-20-06-2026-english/">First aid for infants in Hamm 20.06.2026 (Ausgebucht)</a> (<a href="https://www.myredteam.de/locations/hamburg-hamm/">Hamburg Hamm</a>)</p>
-<p></p>
-<p>8. August 2026 | 10:00  - 14:00 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-kind-am-08-08-2026/">Erste Hilfe am Kind am 08.08.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-wellingsbuettel/">Hamburg Wellingsbüttel</a>)</p>
-<p></p>
-<p>22. August 2026 | 10:00  - 14:00 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-kind-in-hamm-22-08-2026-deutsch/">Erste Hilfe am Kind in Hamm 22.08.2026 (Deutsch)</a> (<a href="https://www.myredteam.de/locations/hamburg-hamm/">Hamburg Hamm</a>)</p>
-<p></p>
-<p>11. September 2026 | 14:00  - 18:00 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-kind-am-11-09-2026/">Erste Hilfe am Kind am 11.09.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-wellingsbuettel/">Hamburg Wellingsbüttel</a>)</p>
-<p></p>
-<p>17. Oktober 2026 | 10:00  - 14:00 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-kind-in-hamm-17-10-2026-deutsch-englisch/">Erste Hilfe am Kind in Hamm 17.10.2026 (Deutsch)</a> (<a href="https://www.myredteam.de/locations/hamburg-hamm/">Hamburg Hamm</a>)</p>
-<p></p>
-<p>17. Oktober 2026 | 14:30  - 18:30 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-kind-in-hamm-17-10-2026-english/">First aid for infants in Hamm 17.10.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-hamm/">Hamburg Hamm</a>)</p>
-<p></p>
-<p>24. Oktober 2026 | 10:00  - 14:00 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-kind-am-24-10-2026/">Erste Hilfe am Kind am 24.10.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-wellingsbuettel/">Hamburg Wellingsbüttel</a>)</p>
-<p></p>
-<p>5. Dezember 2026 | 10:00  - 14:00 <br /><a href="https://www.myredteam.de/events/erste-hilfe-am-kind-am-05-12-2026/">Erste Hilfe am Kind am 05.12.2026</a> (<a href="https://www.myredteam.de/locations/hamburg-wellingsbuettel/">Hamburg Wellingsbüttel</a>)</p>
-<p>	</div>
-</div>
-					</div>						
-				</article>
-			</div>
-					</div>
-	</div>	
+        </div>
+
+    </div>
+
 </section>
-<!-- /Latest News Section -->
-<div class="clearfix"></div>
-</div><!-- Footer Section -->
-<script>
-	(function () {
-		var courseCards = document.querySelectorAll('#blog.home-news article.post');
 
-		if (!courseCards.length) {
-			return;
-		}
 
-		Array.prototype.forEach.call(courseCards, function (card, index) {
-			var header = card.querySelector('.entry-header');
-			var content = card.querySelector('.entry-content');
-			var list = card.querySelector('.em-events-list');
-			var title = header ? header.querySelector('.entry-title') : null;
-			var realItems = list ? Array.prototype.filter.call(list.querySelectorAll('p'), function (item) {
-				return item.textContent.trim().length > 0;
-			}) : [];
+<!-- ABOUT EXPANDABLE -->
 
-			if (!header || !content || !list || realItems.length < 3) {
-				return;
-			}
+<section
+    class="about-expandable-section"
+    id="about"
+>
 
-			var panelId = 'course-panel-' + index;
-			var label = title ? title.textContent.trim() : 'Kurstermine';
-			var toggle = document.createElement('button');
-			var expand = document.createElement('button');
+    <div class="container">
 
-			card.classList.add('course-card', 'is-collapsed');
-			content.id = panelId;
+        <div class="section-header">
 
-			toggle.type = 'button';
-			toggle.className = 'course-toggle';
-			toggle.textContent = '+';
-			toggle.setAttribute('aria-label', label + ' ein- oder ausklappen');
-			toggle.setAttribute('aria-controls', panelId);
-			toggle.setAttribute('aria-expanded', 'false');
-			header.appendChild(toggle);
+            <span class="section-tag">
+                ÜBER UNS
+            </span>
 
-			expand.type = 'button';
-			expand.className = 'course-expand';
-			expand.textContent = 'Mehr Termine anzeigen';
-			expand.setAttribute('aria-controls', panelId);
-			expand.setAttribute('aria-expanded', 'false');
-			card.appendChild(expand);
+            <h2>
+                Warum RED-Team gegründet wurde
+            </h2>
 
-			function setExpanded(expanded) {
-				card.classList.toggle('is-expanded', expanded);
-				card.classList.toggle('is-collapsed', !expanded);
-				toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
-				expand.setAttribute('aria-expanded', expanded ? 'true' : 'false');
-				expand.textContent = expanded ? 'Weniger Termine anzeigen' : 'Mehr Termine anzeigen';
-			}
+        </div>
 
-			header.addEventListener('click', function (event) {
-				if (event.target.closest('a')) {
-					return;
-				}
+        <div class="about-expandable">
 
-				setExpanded(!card.classList.contains('is-expanded'));
-			});
+            <button class="about-toggle">
 
-			toggle.addEventListener('click', function (event) {
-				event.stopPropagation();
-				setExpanded(!card.classList.contains('is-expanded'));
-			});
+                <span>
+                    Unsere Geschichte lesen
+                </span>
 
-			expand.addEventListener('click', function () {
-				setExpanded(!card.classList.contains('is-expanded'));
-			});
-		});
-	})();
-</script>
-	<footer class="site-footer">		
-		<div class="container">
-			
-			   		
-		<div class="row footer-sidebar">
-						<div class="col-md-4">		
-				<aside id="block-2" class="widget widget_block wow fadeInDown animated" data-wow-delay="0.4s">
-<ul class="wp-block-social-links is-layout-flex wp-block-social-links-is-layout-flex"><li class="wp-social-link wp-social-link-facebook  wp-block-social-link"><a href="https://www.facebook.com/myredteamhh/" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Facebook</span></a></li>
+                <span class="about-toggle-icon">
+                    +
+                </span>
 
-<li class="wp-social-link wp-social-link-instagram  wp-block-social-link"><a href="https://www.instagram.com/myredteamhh/" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Instagram</span></a></li>
+            </button>
 
-<li class="wp-social-link wp-social-link-mail  wp-block-social-link"><a href="mailto:k&#111;ntak&#116;&#064;m&#121;&#114;ed&#116;eam.&#100;e" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19,5H5c-1.1,0-2,.9-2,2v10c0,1.1.9,2,2,2h14c1.1,0,2-.9,2-2V7c0-1.1-.9-2-2-2zm.5,12c0,.3-.2.5-.5.5H5c-.3,0-.5-.2-.5-.5V9.8l7.5,5.6,7.5-5.6V17zm0-9.1L12,13.6,4.5,7.9V7c0-.3.2-.5.5-.5h14c.3,0,.5.2.5.5v.9z"></path></svg><span class="wp-block-social-link-label screen-reader-text">E-Mail</span></a></li>
+            <div class="about-expandable-content">
 
-<li class="wp-social-link wp-social-link-snapchat wp-block-social-link"><a href="https://www.snapchat.com/add/myredteamhh" target="_blank" rel="noopener" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5c2.5 0 4.2 1.9 4.2 4.6v2.5c0 .3.2.5.5.5.4 0 .9-.3 1.3-.3.5 0 .9.3.9.7 0 .6-.9 1-1.6 1.3-.4.2-.8.4-.8.7 0 .6 1.2 2.5 3.5 3 .5.1.8.4.8.8 0 .7-1.4 1-2.4 1.2-.3.1-.5.3-.5.6l-.1.7c0 .4-.3.6-.7.6h-.2c-.7 0-1.4-.3-2.1-.3-.5 0-.9.2-1.4.7-.4.5-.8.9-1.4.9s-1-.4-1.4-.9c-.5-.5-.9-.7-1.4-.7-.7 0-1.4.3-2.1.3h-.2c-.4 0-.7-.2-.7-.6l-.1-.7c0-.3-.2-.5-.5-.6-1-.2-2.4-.5-2.4-1.2 0-.4.3-.7.8-.8 2.3-.5 3.5-2.4 3.5-3 0-.3-.4-.5-.8-.7-.7-.3-1.6-.7-1.6-1.3 0-.4.4-.7.9-.7.4 0 .9.3 1.3.3.3 0 .5-.2.5-.5V7.1C7.8 4.4 9.5 2.5 12 2.5z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Snapchat</span></a></li>
+                <p>
+                    Schön, dass Sie den Weg auf diese Seite gefunden haben
+                    und sich mit dem Thema Erste Hilfe auseinandersetzen.
+                </p>
 
-<li class="wp-social-link wp-social-link-tiktok wp-block-social-link"><a href="https://www.tiktok.com/@myredteamhh" target="_blank" rel="noopener" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.6 3c.3 2.1 1.5 3.5 3.4 3.8v3.2c-1.3 0-2.5-.4-3.5-1.1v5.8c0 3.8-2.5 6.3-6.1 6.3-3 0-5.4-2.2-5.4-5.1 0-3.2 2.5-5.4 6.2-5.2v3.3c-1.7-.2-2.8.6-2.8 1.9 0 1.1.8 1.9 2 1.9 1.4 0 2.3-.8 2.3-2.7V3h3.9z"></path></svg><span class="wp-block-social-link-label screen-reader-text">TikTok</span></a></li>
+                <p>
+                    Der tragische Tod eines guten Freundes hat mir damals
+                    die Augen geöffnet. Wenn jemand das Vertrauen in sich selbst
+                    und die Sicherheit zu helfen gehabt hätte,
+                    dann wäre er vielleicht noch am Leben.
+                    Im Notfall zählt jede Sekunde und es braucht nur einen Helfer,
+                    der weiß was zu tun ist.
+                </p>
 
-<li class="wp-social-link wp-social-link-youtube wp-block-social-link"><a href="https://www.youtube.com/@myredteamhh" target="_blank" rel="noopener" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21.6 7.2s-.2-1.5-.8-2.1c-.8-.8-1.6-.8-2-.9C16 4 12 4 12 4s-4 0-6.8.2c-.4.1-1.2.1-2 .9-.6.6-.8 2.1-.8 2.1S2 9 2 10.8v1.7c0 1.8.4 3.6.4 3.6s.2 1.5.8 2.1c.8.8 1.8.8 2.2.9 1.6.2 6.6.2 6.6.2s4 0 6.8-.2c.4-.1 1.2-.1 2-.9.6-.6.8-2.1.8-2.1s.4-1.8.4-3.6v-1.7c0-1.8-.4-3.6-.4-3.6zM10 14.8V8.7l5.4 3.1L10 14.8z"></path></svg><span class="wp-block-social-link-label screen-reader-text">YouTube</span></a></li></ul>
-</aside>			
-			</div>
-						
-						<div class="col-md-4">		
-				<aside id="nav_menu-2" class="widget widget_nav_menu wow fadeInDown animated" data-wow-delay="0.4s"><div class="menu-footer-menue-container"><ul id="menu-footer-menue" class="menu"><li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href="https://www.myredteam.de/impressum/">Impressum</a></li>
-<li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href="https://www.myredteam.de/datenschutz/">Datenschutz</a></li>
-<li id="menu-item-527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-527"><a href="https://www.myredteam.de/agb-breitenausbildung/">AGB</a></li>
-</ul></div></aside>			
-			</div>
-					</div>
-		
-			
-							<div class="row">
-				<div class="col-md-12">
-												<div class="site-info wow fadeIn animated" data-wow-delay="0.4s">
-							<!--/<p>Proudly powered by <a href="https://wordpress.org">WordPress</a> | Theme: <a href="https://spicethemes.com" rel="nofollow">Certify</a> by SpiceThemes</p>-->
-							<p class="red-team-trademark">Red Team&trade;</p>
-						</div>
-									</div>			
-				</div>	
-						
-		</div>
-	</footer>
-<!-- /Footer Section -->
-<div class="clearfix"></div>
-</div><!--Close of wrapper-->
-<!--Scroll To Top--> 
-<a href="#" class="hc_scrollup"><i class="fa fa-chevron-up"></i></a>
-<!--/Scroll To Top--> 
-<script type="speculationrules">
-{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/certify/*","/wp-content/themes/spicepress/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
-</script>
-		<script type="text/javascript">
-			(function() {
-				let targetObjectName = 'EM';
-				if ( typeof window[targetObjectName] === 'object' && window[targetObjectName] !== null ) {
-					Object.assign( window[targetObjectName], []);
-				} else {
-					console.warn( 'Could not merge extra data: window.' + targetObjectName + ' not found or not an object.' );
-				}
-			})();
-		</script>
-			<script>
-	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
-	</script>
-	<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
-<script type="text/javascript" id="wp-i18n-js-after">
-/* <![CDATA[ */
-wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
-//# sourceURL=wp-i18n-js-after
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.4" id="swv-js"></script>
-<script type="text/javascript" id="contact-form-7-js-translations">
-/* <![CDATA[ */
-( function( domain, translations ) {
-	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
-	localeData[""].domain = domain;
-	wp.i18n.setLocaleData( localeData, domain );
-} )( "contact-form-7", {"translation-revision-date":"2025-10-26 03:28:49+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"This contact form is placed in the wrong place.":["Dieses Kontaktformular wurde an der falschen Stelle platziert."],"Error:":["Fehler:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
-//# sourceURL=contact-form-7-js-translations
-/* ]]> */
-</script>
-<script type="text/javascript" id="contact-form-7-js-before">
-/* <![CDATA[ */
-var wpcf7 = {
-    "api": {
-        "root": "https:\/\/www.myredteam.de\/wp-json\/",
-        "namespace": "contact-form-7\/v1"
-    }
-};
-//# sourceURL=contact-form-7-js-before
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.4" id="contact-form-7-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/plugins/spice-post-slider/assets/js/owl.carousel.min.js?ver=2.2.1" id="sps-owl-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/backbone.min.js?ver=1.6.0" id="backbone-js"></script>
-<script type="text/javascript" id="wp-api-request-js-extra">
-/* <![CDATA[ */
-var wpApiSettings = {"root":"https://www.myredteam.de/wp-json/","nonce":"336f87c2a8","versionString":"wp/v2/"};
-//# sourceURL=wp-api-request-js-extra
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/api-request.min.js?ver=6.9" id="wp-api-request-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/wp-api.min.js?ver=6.9" id="wp-api-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1" id="react-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1" id="react-dom-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/dist/escape-html.min.js?ver=6561a406d2d232a6fbd2" id="wp-escape-html-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-includes/js/dist/element.min.js?ver=6a582b0c827fa25df3dd" id="wp-element-js"></script>
-<script type="text/javascript" id="tbk-scripts-js-before">
-/* <![CDATA[ */
-const VSHM_REST_ROUTE_ROOT="https://www.myredteam.de/wp-json/thebooking/v1"
-const VSHM_PLUGIN_VARS={"FILE":"\/usr\/local\/www\/apache24\/noexec\/myredteam.de\/wp-content\/plugins\/team-booking\/team-booking.php","DIR":"\/usr\/local\/www\/apache24\/noexec\/myredteam.de\/wp-content\/plugins\/team-booking","VERSION":"3.0.1","PATH":"\/usr\/local\/www\/apache24\/noexec\/myredteam.de\/wp-content\/plugins\/team-booking\/","URL":"https:\/\/www.myredteam.de\/wp-content\/plugins\/team-booking\/","SLUG":"team-booking","NAME":"TheBooking","LANG":"de-DE"}
-const VSHM_CURRENT_USER=0
-const VSHM_FRONTEND_SERVICES=[{"name":"Wandsbek","id":"s_M8arMWIuHWSpK80TW9BCVmnfkVmFW78d","description":"","status":1,"color":"#d0021b","class":"appointment","created":"2023-02-13 16:55:36","totalSlotTickets":25,"totalUserSlotTickets":25,"showTimes":"yes","showProvider":"","showProviderUrl":"","price":"60","paymentRequirement":"immediately","access":"everyone","picture":"","shortDescription":"Erste Hilfe Kurs f\u00fcr Fahrsch\u00fcler in Wandsbek","priceStarts":true,"location":"Wandsbeker Chaussee 238, 22089 Hamburg","showMap":false,"allowCancellation":false,"cancellationReason":false},{"name":"Altona","id":"s_gT0hPhwfnwdoNHclT7Q2edQ855fC8dqg","description":"","status":1,"color":"#997C3D","class":"appointment","created":"2023-02-25 16:09:54","totalSlotTickets":25,"totalUserSlotTickets":25,"showTimes":"yes","showProvider":"","showProviderUrl":"","price":"60","paymentRequirement":"immediately","access":"everyone","picture":"","shortDescription":"Erste Hilfe Kurs f\u00fcr Fahrsch\u00fcler in Hamburg Altona","priceStarts":true,"location":"Lobuschstrasse 14, 22765 Hamburg","showMap":false,"allowCancellation":false,"cancellationReason":false},{"name":"Sasel","id":"s_Pj6VtB4OVUEYMdoDMprLvhd8KtwehNSb","description":"","status":1,"color":"#50e3c2","class":"appointment","created":"2023-02-25 17:32:24","totalSlotTickets":25,"totalUserSlotTickets":25,"showTimes":"yes","showProvider":"","showProviderUrl":"","price":"60","paymentRequirement":"immediately","access":"everyone","picture":"","shortDescription":"Erste Hilfe Kurs f\u00fcr Fahrsch\u00fcler in Sasel","priceStarts":true,"location":"Stadtbahnstrasse 32, 22393 Hamburg","showMap":false,"allowCancellation":false,"cancellationReason":false},{"name":"Bergstedt","id":"s_Apu430XDuZx2ysUW8l2bS234JgYyB0r5","description":"","status":1,"color":"#7ed321","class":"appointment","created":"2023-02-25 15:06:25","totalSlotTickets":25,"totalUserSlotTickets":25,"showTimes":"yes","showProvider":"","showProviderUrl":"","price":"60","paymentRequirement":"immediately","access":"everyone","picture":"","shortDescription":"Erste Hilfe Kurs f\u00fcr Fahrsch\u00fcler in Hamburg Bergstedt","priceStarts":true,"location":"Bergstedter Chaussee 122, 22395 Hamburg","showMap":false,"allowCancellation":false,"cancellationReason":false},{"name":"Farmsen","id":"s_zua1pKs22g9Kxkvu74TzPu9Y9rovKgps","description":"","status":1,"color":"#f8e71c","class":"appointment","created":"2024-05-07 16:16:00","totalSlotTickets":25,"totalUserSlotTickets":25,"showTimes":"yes","showProvider":"","showProviderUrl":"","price":"60","paymentRequirement":"immediately","access":"everyone","picture":"","shortDescription":"Erste Hilfe Kurs f\u00fcr Fahrsch\u00fcler in Hamburg Farmsen","priceStarts":true,"location":"Berner Heerweg 157, 22159 Hamburg","showMap":false,"allowCancellation":false,"cancellationReason":false},{"name":"Hoheluft\/Elmsb\u00fcttel","id":"s_2RLI12YtUaqWuPV2N25UqsbS0NpjvnaT","description":"","status":1,"color":"#B82CB9","class":"appointment","created":"2023-02-25 15:37:50","totalSlotTickets":25,"totalUserSlotTickets":25,"showTimes":"yes","showProvider":"1","showProviderUrl":"","price":"60","paymentRequirement":"immediately","access":"everyone","picture":"","shortDescription":"Erste Hilfe Kurse f\u00fcr Fahrsch\u00fcler in Hoheluft\/Elmsb\u00fcttel","priceStarts":true,"location":"Grindelberg 79, 20144 Hamburg","showMap":false,"allowCancellation":false,"cancellationReason":false},{"name":"Sternschanze","id":"s_22ynU5nVY1LSTmpfYHHIVa7Oh7UgqvhV","description":"","status":1,"color":"#FD2341","class":"appointment","created":"2023-03-09 13:15:12","totalSlotTickets":25,"totalUserSlotTickets":25,"showTimes":"yes","showProvider":"","showProviderUrl":"","price":"60","paymentRequirement":"immediately","access":"everyone","picture":"","shortDescription":"Erste Hilfe Kurs f\u00fcr Fahrsch\u00fcler in Hamburg Sternschanze","priceStarts":true,"location":"Neuer Kamp 21, 20359 Hamburg","showMap":false,"allowCancellation":false,"cancellationReason":false},{"name":"Mundsburg","id":"s_mxRfw44Vmqkvmm40D6pCE7U4VV3MO7rP","description":"","status":1,"color":"#80A793","class":"appointment","created":"2023-03-09 13:58:08","totalSlotTickets":25,"totalUserSlotTickets":25,"showTimes":"yes","showProvider":"","showProviderUrl":"","price":"60","paymentRequirement":"immediately","access":"everyone","picture":"","shortDescription":"Erste Hilfe Kurse f\u00fcr Fahrsch\u00fcler in Mundsburg","priceStarts":true,"location":"Mundsburger Damm 38, 22087 Hamburg","showMap":false,"allowCancellation":false,"cancellationReason":false},{"name":"Erste Hilfe am Hund","id":"s_AcvfRlOua7KSM8ODeEooDGsc1RlBHQ3P","description":"","status":1,"color":"#dac6ea","class":"appointment","created":"2023-10-12 04:31:21","totalSlotTickets":20,"totalUserSlotTickets":20,"showTimes":"yes","showProvider":"","showProviderUrl":"","price":"65","paymentRequirement":"immediately","access":"everyone","picture":"","shortDescription":"Erste Hilfe am Hund in Hamburg","priceStarts":false,"location":"Wandsbeker Chaussee 238, 22089 Hamburg","showMap":false,"allowCancellation":false,"cancellationReason":false},{"name":"Erste Hilfe am Kind - Wellingsb\u00fcttel","id":"s_7PU52xnzvoQDxty1eaawEr510camWtuj","description":"","status":1,"color":"#671F1B","class":"appointment","created":"2023-10-18 16:49:22","totalSlotTickets":20,"totalUserSlotTickets":20,"showTimes":"yes","showProvider":"","showProviderUrl":"","price":"65","paymentRequirement":"immediately","access":"everyone","picture":"","shortDescription":"","priceStarts":false,"location":"Rolfinckstrasse 12, 22391 Hamburg","showMap":false,"allowCancellation":false,"cancellationReason":false},{"name":"Erste Hilfe am Kind - Hamm","id":"s_QX4KFKRW0xbVPUci5Tdx1Rey0JgRwnja","description":"","status":1,"color":"#81E25B","class":"appointment","created":"2023-10-18 16:54:34","totalSlotTickets":20,"totalUserSlotTickets":20,"showTimes":"yes","showProvider":"","showProviderUrl":"","price":"65","paymentRequirement":"immediately","access":"everyone","picture":"","shortDescription":"","priceStarts":false,"location":"Caspar-Voght-Strasse 35c, 20535 Hamburg","showMap":false,"allowCancellation":false,"cancellationReason":false}]
-const VSHM_FRONTEND_PROVIDERS=[{"avatar":"https:\/\/secure.gravatar.com\/avatar\/6d6abd662f275b3488e84197a96c5d582a1101214dfff351a4e13d483eb8109d?s=96&d=mm&r=g","id":5,"name":"Felix Pluns","url":"https:\/\/www.myredteam.de"},{"avatar":"https:\/\/secure.gravatar.com\/avatar\/f74c465a45ba218310dde798d932fae8537246ec84172b7f1e0d745ea34a54ab?s=96&d=mm&r=g","id":11,"name":"nadv","url":""}]
-const VSHM_SETTINGS={"currencyCode":"EUR","googleMapsApiKey":"","skipGoogleMapsLib":false,"loadMapsAutocomplete":false,"loginUrl":"https:\/\/www.myredteam.de\/wp-login.php","registrationUrl":"https:\/\/www.myredteam.de\/wp-login.php?action=register","allowCart":false,"loadCalendarAtClosestSlot":false,"style":{"dotsThreshold":0,"widgetBorderWidth":"0","dotsLogic":"tickets_service","backgroundColor":"#FFFFFF","widgetBorderColor":"#1890ff","soldoutSlotColor":"#d95c5c","availableSlotColor":"#A1CF64","widgetBorderRadius":0,"googleMapsStyle":0,"googleMapsZoom":14,"primaryColor":"#1890ff"},"weekStartsOn":"1","hideWeekends":false}
-const VSHM_NONCE_ENDPOINT="https://www.myredteam.de/wp-admin/admin-ajax.php?action=rest-nonce"
-const VSHM_I18N={"weekDaysLabels":["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"],"shortWeekDaysLabels":["So.","Mo.","Di.","Mi.","Do.","Fr.","Sa."]}
-//# sourceURL=tbk-scripts-js-before
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/plugins/team-booking//dist/frontend.js?ver=1676306944" id="tbk-scripts-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/plugins/team-booking//dist/frontendVendor.js?ver=1676306944" id="tbk-scripts-vendor-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/themes/spicepress/js/animation/animate.js?ver=6.9" id="animate-js-js"></script>
-<script type="text/javascript" src="https://www.myredteam.de/wp-content/themes/spicepress/js/animation/wow.min.js?ver=6.9" id="wow-js-js"></script>
-<script id="wp-emoji-settings" type="application/json">
-{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.myredteam.de/wp-includes/js/wp-emoji-release.min.js?ver=6.9"}}
-</script>
-<script type="module">
-/* <![CDATA[ */
-/*! This file is auto-generated */
-const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
-//# sourceURL=https://www.myredteam.de/wp-includes/js/wp-emoji-loader.min.js
-/* ]]> */
-</script>
+                <p>
+                    Ich entschied mich dazu in den Rettungsdienst zu gehen
+                    und selbst Menschen und Leben zu retten.
+                    Jeden Tag warteten neue Situationen,
+                    Notfälle und Schicksalsschläge auf mich.
+                </p>
+
+                <p>
+                    Was ich dabei zunehmend beobachtete war,
+                    dass viele Menschen in solchen Umständen hilflos zusehen
+                    und nicht wissen wie sie helfen können.
+                </p>
+
+                <p>
+                    Kurzerhand entschied ich mich eine Fortbildung
+                    zum Erste-Hilfe-Ausbilder und Brandschutzbeauftragten
+                    zu machen um dies zu ändern.
+                </p>
+
+                <p>
+                    Denn ich weiß:
+                    Jeder kann helfen,
+                    wenn er nur weiß was zu tun ist
+                    und sich sicher fühlt.
+                </p>
+
+                <p>
+                    Viele haben Angst davor etwas falsch zu machen.
+                    Doch im Notfall ist oft das Nichtstun der Fehler.
+                </p>
+
+                <p>
+                    Mit großer Freude, Motivation
+                    und einer Portion Humor
+                    vermittle ich Teilnehmern das notwendige Fachwissen
+                    für den Ernstfall —
+                    praxisnah, verständlich und realitätsnah.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- SERVICES -->
+    <section class="services-section">
+
+        <div class="container">
+
+            <div class="services-grid">
+
+                <!-- CARD -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        🚑
+                    </div>
+
+                    <h3>
+                        Erste Hilfe Kurse
+                    </h3>
+
+                    <p>
+                        Zertifizierte Erste-Hilfe-Kurse für Führerschein,
+                        Betrieb und Alltag.
+                    </p>
+
+                </article>
+
+                <!-- CARD -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        👶
+                    </div>
+
+                    <h3>
+                        Erste Hilfe am Kind
+                    </h3>
+
+                    <p>
+                        Notfalltraining für Eltern,
+                        Betreuungspersonal und Familien.
+                    </p>
+
+                </article>
+
+                <!-- CARD -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        🐶
+                    </div>
+
+                    <h3>
+                        Erste Hilfe am Hund
+                    </h3>
+
+                    <p>
+                        Wichtige Sofortmaßnahmen
+                        für Hundehalter und Tierliebhaber.
+                    </p>
+
+                </article>
+
+                <!-- CARD -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        👁️
+                    </div>
+
+                    <h3>
+                        Sehtests für Führerschein
+                    </h3>
+
+                    <p>
+                        Anerkannte Sehtests gemäß
+                        Führerscheinanforderungen des LBV.
+                    </p>
+
+                </article>
+
+                <!-- CARD -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        🔥
+                    </div>
+
+                    <h3>
+                        Brandschutzhelfer
+                    </h3>
+
+                    <p>
+                        Schulungen und Sicherheitsunterweisungen
+                        für Unternehmen.
+                    </p>
+
+                </article>
+
+                <!-- CARD -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        🏢
+                    </div>
+
+                    <h3>
+                        Individuelle Schulungen
+                    </h3>
+
+                    <p>
+                        Maßgeschneiderte Trainingskonzepte
+                        für Unternehmen und Organisationen.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- COURSE INFO -->
+
+<section class="accordion-section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                ERSTE HILFE HAMBURG
+            </span>
+
+            <h2>
+                Erste Hilfe Kurse in Hamburg
+            </h2>
+
+        </div>
+
+        <div class="accordion-container">
+
+            <!-- TAB 1 -->
+
+            <div class="accordion-item">
+
+                <button class="accordion-header">
+
+                    <span class="accordion-title">
+                        Erste Hilfe für Fahrschüler
+                    </span>
+
+                    <span class="accordion-icon">
+                        +
+                    </span>
+
+                </button>
+
+                <div class="accordion-content">
+
+                    <ul class="course-list">
+
+                        <li>
+
+                        <a
+                            href="/events/erste-hilfe-fuer-fahrschueler-in-sternschanze-30-05-2026/"
+                            class="course-event-link"
+                        >
+
+                            <strong>30. Mai 2026 | 14:30 - 21:00</strong><br>
+                            
+                                Erste Hilfe für Fahrschüler in Sternschanze
+                            
+
+                        </a></li>
+
+                        <li>
+                            <strong>31. Mai 2026 | 10:00 - 16:30</strong><br>
+                            Erste Hilfe für Fahrschüler in Sasel
+                        </li>
+
+                        <li>
+                            <strong>6. Juni 2026 | 10:00 - 16:30</strong><br>
+                            Erste Hilfe für Fahrschüler in Wandsbek
+                        </li>
+
+                        <li>
+                            <strong>7. Juni 2026 | 10:00 - 16:30</strong><br>
+                            Erste Hilfe für Fahrschüler in Bergstedt
+                        </li>
+
+                        <li>
+                            <strong>7. Juni 2026 | 10:00 - 16:30</strong><br>
+                            Erste Hilfe für Fahrschüler in Poppenbüttel
+                        </li>
+
+                    </ul>
+                    
+                    vollständige Kursliste mit Buchungsmöglichkeit
+                    
+                    <div class="course-footer-links">
+                    <a
+                            href="/kurse/fahrschueler/"
+                            class="course-less-link"
+                        >
+                            Weniger Termine anzeigen
+                        </a>
+                    </div>
+                </div>
+
+
+                
+            </div>
+
+            <!-- TAB 2 -->
+
+            <div class="accordion-item">
+
+                <button class="accordion-header">
+
+                    <span class="accordion-title">
+                        Erste Hilfe am Hund
+                    </span>
+
+                    <span class="accordion-icon">
+                        +
+                    </span>
+
+                </button>
+
+                <div class="accordion-content">
+
+                    <ul class="course-list">
+
+                        <li>
+                            <a href="/events/erste-hilfe-am-hund-21-06-2026/" 
+                            class="course-event-link">
+                            <strong>21. Juni 2026 | 15:00 - 18:30</strong><br>
+                            Erste Hilfe am Hund am 21.06.2026
+                            </a></li>
+
+                        <li>
+                            <strong>16. August 2026 | 15:00 - 18:30</strong><br>
+                            Erste Hilfe am Hund am 16.08.2026
+                        </li>
+
+                        <li>
+                            <strong>11. Oktober 2026 | 15:00 - 18:30</strong><br>
+                            Erste Hilfe am Hund am 11.10.2026
+                        </li>
+
+                        <li>
+                            <strong>6. Dezember 2026 | 15:00 - 18:30</strong><br>
+                            Erste Hilfe am Hund am 06.12.2026
+                        </li>
+
+                    </ul>
+
+                    vollständige Kursliste mit Buchungsmöglichkeit
+                    
+                    <div class="course-footer-links">
+                    <a
+                            href="/kurse/hund/"
+                            class="course-less-link"
+                        >
+                            Weniger Termine anzeigen
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- TAB 3 -->
+
+            <div class="accordion-item">
+
+                <button class="accordion-header">
+
+                    <span class="accordion-title">
+                        Erste Hilfe am Kind
+                    </span>
+
+                    <span class="accordion-icon">
+                        +
+                    </span>
+
+                </button>
+
+                <div class="accordion-content">
+
+                    <ul class="course-list">
+
+                        <li>
+                            <a href="/events/erste-hilfe-am-kind-13-06-2026/"
+                           class="course-event-link">
+                            <strong>13. Juni 2026 | 10:00 - 14:00</strong><br>
+                            Erste Hilfe am Kind am 13.06.2026
+                            </a>
+                        </li>
+
+                        <li>
+                            <strong>20. Juni 2026 | 10:00 - 14:00</strong><br>
+                            Erste Hilfe am Kind in Hamm
+                        </li>
+
+                        <li>
+                            <strong>20. Juni 2026 | 14:30 - 18:30</strong><br>
+                            First aid for infants in Hamm
+                        </li>
+
+                        <li>
+                            <strong>8. August 2026 | 10:00 - 14:00</strong><br>
+                            Erste Hilfe am Kind am 08.08.2026
+                        </li>
+
+                        <li>
+                            <strong>22. August 2026 | 10:00 - 14:00</strong><br>
+                            Erste Hilfe am Kind in Hamm
+                        </li>
+
+                    </ul>
+
+                    vollständige Kursliste mit Buchungsmöglichkeit
+                    
+                    <div class="course-footer-links">
+                    <a
+                            href="/kurse/kind/"
+                            class="course-less-link"
+                        >
+                            Weniger Termine anzeigen
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- CTA -->
+    <section class="cta-section">
+
+        <div class="container">
+
+            <div class="cta-box">
+
+                <div class="cta-content">
+
+                    <h2>
+                        Bereit für Ihren Kurs?
+                    </h2>
+
+                    <p>
+                        Kontaktieren Sie uns noch heute
+                        und sichern Sie sich Ihren Platz.
+                    </p>
+
+                </div>
+
+                <a href="/kontakt.html" class="btn btn-primary">
+
+                    Jetzt Kontakt aufnehmen
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials-section">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <span class="section-tag">
+                    ERFAHRUNGEN
+                </span>
+
+                <h2>
+                    Vertrauen durch Kompetenz
+                </h2>
+
+            </div>
+
+            <div class="testimonials-grid">
+
+                <article class="testimonial-card">
+
+                    <p>
+                        “Professionelle und sympathische Schulung.
+                        Der Kurs war praxisnah und verständlich aufgebaut.”
+                    </p>
+
+                    <h4>
+                        Fahrschülerin aus Hamburg
+                    </h4>
+
+                </article>
+
+                <article class="testimonial-card">
+
+                    <p>
+                        “Sehr kompetentes Team.
+                        Die Inhalte wurden klar erklärt
+                        und realitätsnah vermittelt.”
+                    </p>
+
+                    <h4>
+                        Unternehmenskunde
+                    </h4>
+
+                </article>
+
+                <article class="testimonial-card">
+
+                    <p>
+                        “Angenehme Atmosphäre und moderne Schulungsmethoden.
+                        Absolut empfehlenswert.”
+                    </p>
+
+                    <h4>
+                        Kursteilnehmer
+                    </h4>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+       <footer class="main-footer">
+
+    <div class="container footer-container">
+
+        <!-- FOOTER BRAND -->
+        <div class="footer-brand">
+
+            <a href="#top" class="footer-logo-link">
+            <img
+                src="assets/images/logos/RedTeamLogo2.png"
+                alt="RED-Team"
+                class="footer-logo"
+            >
+            </a>
+
+            <p class="footer-description">
+                Erste Hilfe • Sicherheit • Sehtests
+            </p>
+
+
+            <div class="footer-socials">
+
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://twitter.com" target="_blank">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+
+                <a href="https://instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://snapchat.com" target="_blank">
+                    <i class="fab fa-snapchat"></i>
+                </a>
+
+                <a href="https://tiktok.com" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+                <a href="https://reddit.com" target="_blank">
+                    <i class="fab fa-reddit-alien"></i>
+                </a>
+
+                <a href="https://linkedin.com" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://youtube.com" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+        </div>
+    </div>
+
+ <!-- NAVIGATION -->
+        <div class="footer-links">
+
+            <h3>
+                Navigation
+            </h3>
+
+            <ul>
+
+                <li><a href="/">Startseite</a></li>
+                <li><a href="/services.html">Leistungen</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="/contact.html">Kontakt</a></li>
+
+            </ul>
+
+        </div>
+        
+        <!-- SERVICES -->
+         <div class="footer-links">
+
+            <h3>
+                Kurse
+            </h3>
+
+            <ul>
+
+                <li><a href="#">Erste Hilfe Führerschein</a></li>
+                <li><a href="#">Erste Hilfe am Kind</a></li>
+                <li><a href="#">Erste Hilfe am Hund</a></li>
+                <li><a href="#">Brandschutzhelfer</a></li>
+                <li><a href="#">Sehtests</a></li>
+
+            </ul>
+
+        </div>
+
+        <!-- CONTACT -->
+        <div class="footer-contact">
+
+            <h3>Kontakt</h3>
+
+            <p>
+                <a href="mailto:kontakt@myredteam.de">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                kontakt@myredteam.de
+            </p>
+            <p><a href="tel:+49 40 21074586">
+        <i class="fas fa-phone"></i>
+                </a>
+                +49 40 21074586
+            </p>
+            <p><a href="https://goo.gl/maps/your-google-maps-link" target="_blank">
+                <i class="fas fa-map-marker-alt"></i>
+            </a>
+            Saseler Chaussee 225, 22393 Hamburg, Deutschland</p>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER BOTTOM -->
+    <div class="footer-bottom">
+
+        <div class="container footer-bottom-container">
+
+            <p>
+                © 2026 RED-Team Hamburg.
+                Alle Rechte vorbehalten.
+            </p>
+
+            <div class="footer-legal">
+
+                <a href="/impressum.html">
+                    Impressum
+                </a>
+
+                <a href="/datenschutz.html">
+                    Datenschutz
+                </a>
+
+                <a href="/agb.html">
+                    AGB
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
